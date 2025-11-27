@@ -1,9 +1,9 @@
-invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rating,profit_margin,revenue
-1,WALM003,San Antonio,Health and beauty,74.69,7.0,2019-05-01,13:08:00,Ewallet,9.1,0.48,522.8299999999999
-2,WALM048,Harlingen,Electronic accessories,15.28,5.0,2019-08-03,10:29:00,Cash,9.6,0.48,76.39999999999999
+invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rating,profit_margin,total_sales
+1,WALM003,San Antonio,Health and beauty,74.69,7.0,2019-05-01,13:08:00,Ewallet,9.1,0.48,522.83
+2,WALM048,Harlingen,Electronic accessories,15.28,5.0,2019-08-03,10:29:00,Cash,9.6,0.48,76.4
 3,WALM067,Haltom City,Home and lifestyle,46.33,7.0,2019-03-03,13:23:00,Credit card,7.4,0.33,324.31
 4,WALM064,Bedford,Health and beauty,58.22,8.0,2019-01-27,20:33:00,Ewallet,8.4,0.33,465.76
-5,WALM013,Irving,Sports and travel,86.31,7.0,2019-08-02,10:37:00,Ewallet,5.3,0.48,604.1700000000001
+5,WALM013,Irving,Sports and travel,86.31,7.0,2019-08-02,10:37:00,Ewallet,5.3,0.48,604.17
 6,WALM026,Denton,Electronic accessories,85.39,7.0,2019-03-25,18:30:00,Ewallet,4.1,0.48,597.73
 7,WALM088,Cleburne,Electronic accessories,68.84,6.0,2019-02-25,14:36:00,Ewallet,5.8,0.33,413.04
 8,WALM100,Canyon,Home and lifestyle,73.56,10.0,2019-02-24,11:38:00,Ewallet,8.0,0.18,735.6
@@ -14,12 +14,12 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 13,WALM027,Abilene,Electronic accessories,46.95,5.0,2019-12-02,10:25:00,Ewallet,7.1,0.48,234.75
 14,WALM035,San Angelo,Food and beverages,43.19,10.0,2019-07-02,16:48:00,Ewallet,8.2,0.48,431.9
 15,WALM031,Lewisville,Health and beauty,71.38,10.0,2019-03-29,19:21:00,Cash,5.7,0.48,713.8
-16,WALM008,Corpus Christi,Sports and travel,93.72,6.0,2019-01-15,16:19:00,Cash,4.5,0.48,562.3199999999999
-17,WALM029,Round Rock,Health and beauty,68.93,7.0,2019-11-03,11:03:00,Credit card,4.6,0.48,482.51000000000005
-18,WALM061,Cedar Park,Sports and travel,72.61,6.0,2019-01-01,10:39:00,Credit card,6.9,0.33,435.65999999999997
+16,WALM008,Corpus Christi,Sports and travel,93.72,6.0,2019-01-15,16:19:00,Cash,4.5,0.48,562.32
+17,WALM029,Round Rock,Health and beauty,68.93,7.0,2019-11-03,11:03:00,Credit card,4.6,0.48,482.51
+18,WALM061,Cedar Park,Sports and travel,72.61,6.0,2019-01-01,10:39:00,Credit card,6.9,0.33,435.66
 19,WALM053,Conroe,Food and beverages,54.67,3.0,2019-01-21,18:00:00,Credit card,8.6,0.57,164.01
 20,WALM013,Irving,Home and lifestyle,40.3,2.0,2019-11-03,15:30:00,Ewallet,4.4,0.48,80.6
-21,WALM044,Pharr,Electronic accessories,86.04,5.0,2019-02-25,11:24:00,Ewallet,4.8,0.48,430.20000000000005
+21,WALM044,Pharr,Electronic accessories,86.04,5.0,2019-02-25,11:24:00,Ewallet,4.8,0.48,430.2
 22,WALM088,Cleburne,Health and beauty,87.98,3.0,2019-05-03,10:40:00,Ewallet,5.1,0.33,263.94
 23,WALM083,Farmers Branch,Home and lifestyle,33.2,2.0,2019-03-15,12:20:00,Credit card,4.4,0.33,66.4
 24,WALM067,Haltom City,Electronic accessories,34.56,5.0,2019-02-17,11:15:00,Ewallet,9.9,0.33,172.8
@@ -30,13 +30,13 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 29,WALM012,Garland,Food and beverages,88.36,5.0,2019-01-25,19:48:00,Cash,9.6,0.48,441.8
 30,WALM075,San Marcos,Health and beauty,24.89,9.0,2019-03-15,15:36:00,Cash,7.4,0.33,224.01
 31,WALM076,Huntsville,Fashion accessories,94.13,5.0,2019-02-25,19:39:00,Credit card,4.8,0.33,470.65
-32,WALM098,Mineral Wells,Sports and travel,78.07,9.0,2019-01-28,12:43:00,Cash,4.5,0.18,702.6299999999999
+32,WALM098,Mineral Wells,Sports and travel,78.07,9.0,2019-01-28,12:43:00,Cash,4.5,0.18,702.63
 33,WALM021,McAllen,Sports and travel,83.78,8.0,2019-10-01,14:49:00,Cash,5.1,0.48,670.24
 34,WALM096,Eagle Pass,Health and beauty,96.58,2.0,2019-03-15,10:12:00,Credit card,5.1,0.18,193.16
 35,WALM022,Mesquite,Food and beverages,99.42,4.0,2019-06-02,10:42:00,Ewallet,7.5,0.48,397.68
 36,WALM095,Big Spring,Sports and travel,68.12,1.0,2019-07-01,12:28:00,Ewallet,6.8,0.33,68.12
-37,WALM041,Mission,Sports and travel,62.62,5.0,2019-10-03,19:15:00,Ewallet,7.0,0.48,313.09999999999997
-38,WALM070,Hurst,Electronic accessories,60.88,9.0,2019-01-15,17:17:00,Ewallet,4.7,0.33,547.9200000000001
+37,WALM041,Mission,Sports and travel,62.62,5.0,2019-10-03,19:15:00,Ewallet,7.0,0.48,313.1
+38,WALM070,Hurst,Electronic accessories,60.88,9.0,2019-01-15,17:17:00,Ewallet,4.7,0.33,547.92
 39,WALM070,Hurst,Health and beauty,54.92,8.0,2019-03-23,13:24:00,Ewallet,7.6,0.33,439.36
 40,WALM030,Richardson,Home and lifestyle,30.12,8.0,2019-03-03,13:01:00,Cash,7.7,0.48,240.96
 41,WALM033,Pearland,Home and lifestyle,86.72,1.0,2019-01-17,18:45:00,Ewallet,7.9,0.48,86.72
@@ -49,8 +49,8 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 48,WALM015,Grand Prairie,Food and beverages,20.01,9.0,2019-06-02,15:47:00,Ewallet,4.1,0.48,180.09
 49,WALM063,Georgetown,Electronic accessories,18.93,6.0,2019-10-02,12:45:00,Credit card,8.1,0.33,113.58
 50,WALM021,McAllen,Fashion accessories,82.63,10.0,2019-03-19,17:08:00,Ewallet,7.9,0.48,826.3
-51,WALM089,Southlake,Food and beverages,91.4,7.0,2019-03-02,10:19:00,Cash,9.5,0.33,639.8000000000001
-52,WALM093,Angleton,Food and beverages,44.59,5.0,2019-10-02,15:10:00,Cash,8.5,0.33,222.95000000000002
+51,WALM089,Southlake,Food and beverages,91.4,7.0,2019-03-02,10:19:00,Cash,9.5,0.33,639.8
+52,WALM093,Angleton,Food and beverages,44.59,5.0,2019-10-02,15:10:00,Cash,8.5,0.33,222.95
 53,WALM041,Mission,Fashion accessories,17.87,4.0,2019-03-22,14:42:00,Ewallet,6.5,0.48,71.48
 54,WALM045,Missouri City,Fashion accessories,15.43,1.0,2019-01-25,15:46:00,Credit card,6.1,0.48,15.43
 55,WALM005,Fort Worth,Home and lifestyle,16.16,2.0,2019-07-03,11:49:00,Ewallet,6.5,0.48,32.32
@@ -67,10 +67,10 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 66,WALM042,Bryan,Health and beauty,15.87,10.0,2019-03-13,16:40:00,Cash,5.8,0.48,158.7
 67,WALM020,Killeen,Health and beauty,33.47,2.0,2019-10-02,15:43:00,Ewallet,6.7,0.48,66.94
 68,WALM029,Round Rock,Fashion accessories,97.61,6.0,2019-07-01,15:01:00,Ewallet,9.9,0.48,585.66
-69,WALM079,La Porte,Sports and travel,78.77,10.0,2019-01-24,10:04:00,Cash,6.4,0.33,787.6999999999999
+69,WALM079,La Porte,Sports and travel,78.77,10.0,2019-01-24,10:04:00,Cash,6.4,0.33,787.7
 70,WALM035,San Angelo,Health and beauty,18.33,1.0,2019-02-02,18:50:00,Cash,4.3,0.48,18.33
-71,WALM007,Arlington,Food and beverages,89.48,10.0,2019-06-01,12:46:00,Credit card,9.6,0.48,894.8000000000001
-72,WALM017,McKinney,Fashion accessories,62.12,10.0,2019-11-02,16:19:00,Cash,5.9,0.48,621.1999999999999
+71,WALM007,Arlington,Food and beverages,89.48,10.0,2019-06-01,12:46:00,Credit card,9.6,0.48,894.8
+72,WALM017,McKinney,Fashion accessories,62.12,10.0,2019-11-02,16:19:00,Cash,5.9,0.48,621.2
 73,WALM096,Eagle Pass,Food and beverages,48.52,3.0,2019-05-03,18:17:00,Ewallet,4.0,0.18,145.56
 74,WALM083,Farmers Branch,Electronic accessories,75.91,6.0,2019-09-03,18:21:00,Cash,8.7,0.33,455.46
 75,WALM072,Lancaster,Home and lifestyle,74.67,9.0,2019-01-22,10:55:00,Ewallet,9.4,0.33,672.03
@@ -78,17 +78,17 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 77,WALM058,Port Arthur,Fashion accessories,49.04,9.0,2019-09-01,14:20:00,Credit card,8.6,0.33,441.36
 78,WALM094,Alamo,Fashion accessories,20.01,9.0,2019-12-01,15:48:00,Credit card,5.7,0.33,180.09
 79,WALM063,Georgetown,Food and beverages,78.31,10.0,2019-05-03,16:24:00,Ewallet,6.6,0.33,783.1
-80,WALM071,Lufkin,Health and beauty,20.38,5.0,2019-01-22,18:56:00,Cash,6.0,0.33,101.89999999999999
+80,WALM071,Lufkin,Health and beauty,20.38,5.0,2019-01-22,18:56:00,Cash,6.0,0.33,101.9
 81,WALM061,Cedar Park,Health and beauty,99.19,6.0,2019-01-21,14:42:00,Credit card,5.5,0.33,595.14
 82,WALM090,Brownwood,Food and beverages,96.68,3.0,2019-01-26,19:56:00,Ewallet,6.4,0.33,290.04
 83,WALM061,Cedar Park,Food and beverages,19.25,8.0,2019-01-23,18:37:00,Ewallet,6.6,0.33,154.0
 84,WALM041,Mission,Food and beverages,80.36,4.0,2019-02-23,18:45:00,Ewallet,8.3,0.48,321.44
-85,WALM097,Alice,Sports and travel,48.91,5.0,2019-09-03,10:17:00,Cash,6.6,0.18,244.54999999999998
-86,WALM043,Baytown,Sports and travel,83.06,7.0,2019-05-03,14:31:00,Ewallet,4.0,0.48,581.4200000000001
-87,WALM042,Bryan,Fashion accessories,76.52,5.0,2019-03-25,10:23:00,Cash,9.9,0.48,382.59999999999997
+85,WALM097,Alice,Sports and travel,48.91,5.0,2019-09-03,10:17:00,Cash,6.6,0.18,244.55
+86,WALM043,Baytown,Sports and travel,83.06,7.0,2019-05-03,14:31:00,Ewallet,4.0,0.48,581.42
+87,WALM042,Bryan,Fashion accessories,76.52,5.0,2019-03-25,10:23:00,Cash,9.9,0.48,382.6
 88,WALM046,Temple,Food and beverages,49.38,7.0,2019-03-27,20:35:00,Credit card,7.3,0.48,345.66
 89,WALM011,Lubbock,Sports and travel,42.47,1.0,2019-02-01,16:57:00,Cash,5.7,0.48,42.47
-90,WALM064,Bedford,Health and beauty,76.99,6.0,2019-02-27,17:55:00,Cash,6.1,0.33,461.93999999999994
+90,WALM064,Bedford,Health and beauty,76.99,6.0,2019-02-27,17:55:00,Cash,6.1,0.33,461.94
 91,WALM095,Big Spring,Home and lifestyle,47.38,4.0,2019-01-23,10:25:00,Cash,7.1,0.33,189.52
 92,WALM049,North Richland Hills,Sports and travel,44.86,10.0,2019-01-26,19:54:00,Ewallet,8.2,0.48,448.6
 93,WALM040,Edinburg,Sports and travel,21.98,7.0,2019-10-01,16:42:00,Ewallet,5.1,0.48,153.86
@@ -96,17 +96,17 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 95,WALM075,San Marcos,Health and beauty,89.75,1.0,2019-06-02,20:05:00,Credit card,6.6,0.33,89.75
 96,WALM034,College Station,Electronic accessories,97.16,1.0,2019-08-03,20:38:00,Ewallet,7.2,0.48,97.16
 97,WALM014,Amarillo,Health and beauty,87.87,10.0,2019-03-29,10:25:00,Ewallet,5.1,0.48,878.7
-98,WALM096,Eagle Pass,Electronic accessories,12.45,6.0,2019-09-02,13:11:00,Cash,4.1,0.18,74.69999999999999
+98,WALM096,Eagle Pass,Electronic accessories,12.45,6.0,2019-09-02,13:11:00,Cash,4.1,0.18,74.7
 99,WALM004,Austin,Food and beverages,52.75,3.0,2019-03-23,10:16:00,Ewallet,9.3,0.48,158.25
-100,WALM011,Lubbock,Home and lifestyle,82.7,6.0,2019-05-03,18:14:00,Cash,7.4,0.48,496.20000000000005
+100,WALM011,Lubbock,Home and lifestyle,82.7,6.0,2019-05-03,18:14:00,Cash,7.4,0.48,496.2
 101,WALM075,San Marcos,Fashion accessories,48.71,1.0,2019-03-26,19:20:00,Cash,4.1,0.33,48.71
-102,WALM057,Euless,Fashion accessories,78.55,9.0,2019-01-03,13:22:00,Cash,7.2,0.33,706.9499999999999
+102,WALM057,Euless,Fashion accessories,78.55,9.0,2019-01-03,13:22:00,Cash,7.2,0.33,706.95
 103,WALM023,Midland,Electronic accessories,23.07,9.0,2019-01-02,11:27:00,Cash,4.9,0.48,207.63
 104,WALM012,Garland,Food and beverages,58.26,6.0,2019-03-28,16:44:00,Cash,9.9,0.48,349.56
-105,WALM078,Del Rio,Health and beauty,30.35,7.0,2019-03-19,18:19:00,Cash,8.0,0.33,212.45000000000002
+105,WALM078,Del Rio,Health and beauty,30.35,7.0,2019-03-19,18:19:00,Cash,8.0,0.33,212.45
 106,WALM055,Waxahachie,Electronic accessories,88.67,10.0,2019-12-01,14:50:00,Ewallet,7.3,0.33,886.7
 107,WALM038,Sugar Land,Fashion accessories,27.38,6.0,2019-05-01,20:54:00,Credit card,7.9,0.48,164.28
-108,WALM049,North Richland Hills,Sports and travel,62.13,6.0,2019-03-22,20:19:00,Cash,7.4,0.48,372.78000000000003
+108,WALM049,North Richland Hills,Sports and travel,62.13,6.0,2019-03-22,20:19:00,Cash,7.4,0.48,372.78
 109,WALM044,Pharr,Food and beverages,33.98,9.0,2019-03-24,10:43:00,Cash,4.2,0.48,305.82
 110,WALM056,Rowlett,Electronic accessories,81.97,10.0,2019-03-03,14:30:00,Cash,9.2,0.33,819.7
 111,WALM007,Arlington,Sports and travel,16.49,2.0,2019-05-02,11:32:00,Ewallet,4.6,0.48,32.98
@@ -117,14 +117,14 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 116,WALM087,Waxahachie,Fashion accessories,27.02,3.0,2019-02-03,13:01:00,Credit card,7.1,0.33,81.06
 117,WALM040,Edinburg,Fashion accessories,21.94,5.0,2019-05-03,12:29:00,Ewallet,5.3,0.48,109.7
 118,WALM071,Lufkin,Fashion accessories,51.36,1.0,2019-01-16,15:26:00,Ewallet,5.2,0.33,51.36
-119,WALM027,Abilene,Food and beverages,10.96,10.0,2019-02-02,20:48:00,Ewallet,6.0,0.48,109.60000000000001
+119,WALM027,Abilene,Food and beverages,10.96,10.0,2019-02-02,20:48:00,Ewallet,6.0,0.48,109.6
 120,WALM071,Lufkin,Home and lifestyle,53.44,2.0,2019-01-20,20:38:00,Ewallet,4.1,0.33,106.88
 121,WALM014,Amarillo,Electronic accessories,99.56,8.0,2019-02-14,17:03:00,Credit card,5.2,0.48,796.48
 122,WALM069,Rockwall,Sports and travel,57.12,7.0,2019-12-01,12:02:00,Credit card,6.5,0.33,399.84
 123,WALM085,Kerrville,Sports and travel,99.96,9.0,2019-09-03,17:26:00,Credit card,4.2,0.33,899.64
 124,WALM061,Cedar Park,Home and lifestyle,63.91,8.0,2019-03-13,19:52:00,Credit card,4.6,0.33,511.28
 125,WALM088,Cleburne,Fashion accessories,56.47,8.0,2019-09-03,14:57:00,Ewallet,7.3,0.33,451.76
-126,WALM034,College Station,Home and lifestyle,93.69,7.0,2019-10-03,18:44:00,Credit card,4.5,0.48,655.8299999999999
+126,WALM034,College Station,Home and lifestyle,93.69,7.0,2019-10-03,18:44:00,Credit card,4.5,0.48,655.83
 127,WALM016,Brownsville,Sports and travel,32.25,5.0,2019-01-27,13:26:00,Cash,9.0,0.48,161.25
 128,WALM044,Pharr,Fashion accessories,31.73,9.0,2019-08-01,16:17:00,Credit card,5.9,0.48,285.57
 129,WALM035,San Angelo,Food and beverages,68.54,8.0,2019-08-01,15:57:00,Ewallet,8.5,0.48,548.32
@@ -133,28 +133,28 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 132,WALM068,Burleson,Sports and travel,92.13,6.0,2019-06-03,20:34:00,Cash,8.3,0.33,552.78
 133,WALM055,Waxahachie,Sports and travel,34.84,4.0,2019-10-02,18:36:00,Cash,7.4,0.33,139.36
 134,WALM002,Dallas,Electronic accessories,87.45,6.0,2019-02-17,14:40:00,Credit card,8.8,0.36,524.7
-135,WALM062,Galveston,Health and beauty,81.3,6.0,2019-08-03,16:43:00,Ewallet,5.3,0.33,487.79999999999995
-136,WALM098,Mineral Wells,Fashion accessories,90.22,3.0,2019-02-18,19:39:00,Cash,6.2,0.18,270.65999999999997
-137,WALM027,Abilene,Electronic accessories,26.31,5.0,2019-01-18,20:59:00,Credit card,8.8,0.48,131.54999999999998
+135,WALM062,Galveston,Health and beauty,81.3,6.0,2019-08-03,16:43:00,Ewallet,5.3,0.33,487.8
+136,WALM098,Mineral Wells,Fashion accessories,90.22,3.0,2019-02-18,19:39:00,Cash,6.2,0.18,270.66
+137,WALM027,Abilene,Electronic accessories,26.31,5.0,2019-01-18,20:59:00,Credit card,8.8,0.48,131.55
 138,WALM093,Angleton,Home and lifestyle,34.42,6.0,2019-02-18,15:39:00,Cash,9.8,0.33,206.52
-139,WALM029,Round Rock,Sports and travel,51.91,10.0,2019-02-16,12:21:00,Cash,8.2,0.48,519.0999999999999
+139,WALM029,Round Rock,Sports and travel,51.91,10.0,2019-02-16,12:21:00,Cash,8.2,0.48,519.1
 140,WALM016,Brownsville,Sports and travel,72.5,8.0,2019-03-16,19:25:00,Ewallet,9.2,0.48,580.0
 141,WALM023,Midland,Sports and travel,89.8,10.0,2019-01-23,13:00:00,Credit card,5.4,0.48,898.0
 142,WALM012,Garland,Health and beauty,90.5,10.0,2019-01-25,13:48:00,Cash,8.1,0.48,905.0
 143,WALM052,Mansfield,Health and beauty,68.6,10.0,2019-05-02,19:57:00,Cash,9.1,0.57,686.0
 144,WALM097,Alice,Food and beverages,30.41,1.0,2019-02-22,10:36:00,Credit card,8.4,0.18,30.41
-145,WALM045,Missouri City,Home and lifestyle,77.95,6.0,2019-01-21,16:37:00,Credit card,8.0,0.48,467.70000000000005
+145,WALM045,Missouri City,Home and lifestyle,77.95,6.0,2019-01-21,16:37:00,Credit card,8.0,0.48,467.7
 146,WALM047,Flower Mound,Health and beauty,46.26,6.0,2019-08-03,17:11:00,Credit card,9.5,0.48,277.56
 147,WALM026,Denton,Fashion accessories,30.14,10.0,2019-10-02,12:28:00,Ewallet,9.2,0.48,301.4
 148,WALM054,Sherman,Health and beauty,66.14,4.0,2019-03-19,12:46:00,Credit card,5.6,0.21,264.56
 149,WALM049,North Richland Hills,Home and lifestyle,71.86,8.0,2019-06-03,15:07:00,Credit card,6.2,0.48,574.88
 150,WALM065,Texas City,Health and beauty,32.46,8.0,2019-03-27,13:48:00,Credit card,4.9,0.33,259.68
 151,WALM016,Brownsville,Fashion accessories,91.54,4.0,2019-03-23,19:20:00,Credit card,4.8,0.48,366.16
-152,WALM070,Hurst,Sports and travel,34.56,7.0,2019-11-03,16:07:00,Credit card,7.3,0.33,241.92000000000002
+152,WALM070,Hurst,Sports and travel,34.56,7.0,2019-11-03,16:07:00,Credit card,7.3,0.33,241.92
 153,WALM099,Weatherford,Fashion accessories,83.24,9.0,2019-01-29,11:56:00,Credit card,7.4,0.18,749.16
 154,WALM071,Lufkin,Food and beverages,16.48,6.0,2019-07-02,18:23:00,Ewallet,9.9,0.33,98.88
 155,WALM078,Del Rio,Sports and travel,80.97,8.0,2019-01-28,13:05:00,Cash,9.3,0.33,647.76
-156,WALM074,Weslaco,Food and beverages,92.29,5.0,2019-02-20,15:55:00,Cash,9.0,0.33,461.45000000000005
+156,WALM074,Weslaco,Food and beverages,92.29,5.0,2019-02-20,15:55:00,Cash,9.0,0.33,461.45
 157,WALM042,Bryan,Electronic accessories,72.17,1.0,2019-04-01,19:40:00,Cash,6.1,0.48,72.17
 158,WALM013,Irving,Home and lifestyle,50.28,5.0,2019-07-03,13:58:00,Ewallet,9.7,0.48,251.4
 159,WALM100,Canyon,Health and beauty,97.22,9.0,2019-03-30,14:43:00,Ewallet,6.0,0.18,874.98
@@ -166,32 +166,32 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 165,WALM057,Euless,Food and beverages,39.9,10.0,2019-02-20,15:24:00,Credit card,5.9,0.33,399.0
 166,WALM088,Cleburne,Health and beauty,42.57,8.0,2019-02-25,14:12:00,Ewallet,5.6,0.33,340.56
 167,WALM061,Cedar Park,Home and lifestyle,95.58,10.0,2019-01-16,13:32:00,Cash,4.8,0.33,955.8
-168,WALM040,Edinburg,Fashion accessories,98.98,10.0,2019-08-02,16:20:00,Credit card,8.7,0.48,989.8000000000001
+168,WALM040,Edinburg,Fashion accessories,98.98,10.0,2019-08-02,16:20:00,Credit card,8.7,0.48,989.8
 169,WALM069,Rockwall,Food and beverages,51.28,6.0,2019-01-19,16:31:00,Cash,6.5,0.33,307.68
 170,WALM089,Southlake,Sports and travel,69.52,7.0,2019-01-02,15:10:00,Credit card,8.5,0.33,486.64
 171,WALM031,Lewisville,Health and beauty,70.01,5.0,2019-03-01,11:36:00,Ewallet,5.5,0.48,350.05
 172,WALM039,Longview,Food and beverages,80.05,5.0,2019-01-26,12:45:00,Credit card,9.4,0.48,400.25
 173,WALM039,Longview,Electronic accessories,20.85,8.0,2019-03-03,19:17:00,Cash,6.3,0.48,166.8
-174,WALM047,Flower Mound,Electronic accessories,52.89,6.0,2019-01-19,17:34:00,Credit card,9.8,0.48,317.34000000000003
+174,WALM047,Flower Mound,Electronic accessories,52.89,6.0,2019-01-19,17:34:00,Credit card,9.8,0.48,317.34
 175,WALM071,Lufkin,Food and beverages,19.79,8.0,2019-01-18,12:04:00,Ewallet,8.7,0.33,158.32
-176,WALM060,DeSoto,Home and lifestyle,33.84,9.0,2019-03-21,16:21:00,Ewallet,8.8,0.33,304.56000000000006
+176,WALM060,DeSoto,Home and lifestyle,33.84,9.0,2019-03-21,16:21:00,Ewallet,8.8,0.33,304.56
 177,WALM073,Seguin,Food and beverages,22.17,8.0,2019-03-03,17:01:00,Credit card,9.6,0.33,177.36
-178,WALM059,Pflugerville,Fashion accessories,22.51,7.0,2019-02-13,10:50:00,Credit card,4.8,0.33,157.57000000000002
+178,WALM059,Pflugerville,Fashion accessories,22.51,7.0,2019-02-13,10:50:00,Credit card,4.8,0.33,157.57
 179,WALM012,Garland,Food and beverages,73.88,6.0,2019-03-23,19:16:00,Ewallet,4.4,0.48,443.28
 180,WALM086,Rosenberg,Health and beauty,86.8,3.0,2019-01-28,16:47:00,Ewallet,9.9,0.33,260.4
-181,WALM073,Seguin,Fashion accessories,64.26,7.0,2019-09-02,10:00:00,Cash,5.7,0.33,449.82000000000005
+181,WALM073,Seguin,Fashion accessories,64.26,7.0,2019-09-02,10:00:00,Cash,5.7,0.33,449.82
 182,WALM028,Odessa,Food and beverages,38.47,8.0,2019-01-23,11:51:00,Cash,7.7,0.48,307.76
 183,WALM053,Conroe,Sports and travel,15.5,10.0,2019-03-23,10:55:00,Ewallet,8.0,0.57,155.0
 184,WALM024,Carrollton,Health and beauty,34.31,8.0,2019-01-25,15:00:00,Ewallet,5.7,0.48,274.48
 185,WALM097,Alice,Sports and travel,12.34,7.0,2019-04-03,11:19:00,Credit card,6.7,0.18,86.38
-186,WALM072,Lancaster,Food and beverages,18.08,3.0,2019-05-03,19:46:00,Ewallet,8.0,0.33,54.239999999999995
+186,WALM072,Lancaster,Food and beverages,18.08,3.0,2019-05-03,19:46:00,Ewallet,8.0,0.33,54.24
 187,WALM023,Midland,Home and lifestyle,94.49,8.0,2019-03-03,19:00:00,Ewallet,7.5,0.48,755.92
 188,WALM038,Sugar Land,Home and lifestyle,46.47,4.0,2019-08-02,10:53:00,Cash,7.0,0.48,185.88
 189,WALM078,Del Rio,Home and lifestyle,74.07,1.0,2019-10-02,12:50:00,Ewallet,9.9,0.33,74.07
 190,WALM084,Schertz,Home and lifestyle,69.81,4.0,2019-01-28,20:50:00,Credit card,5.9,0.33,279.24
 191,WALM059,Pflugerville,Home and lifestyle,77.04,3.0,2019-11-02,10:39:00,Credit card,7.2,0.33,231.12
 192,WALM062,Galveston,Fashion accessories,73.52,2.0,2019-01-15,13:41:00,Ewallet,4.6,0.33,147.04
-193,WALM090,Brownwood,Food and beverages,87.8,9.0,2019-03-16,19:08:00,Cash,9.2,0.33,790.1999999999999
+193,WALM090,Brownwood,Food and beverages,87.8,9.0,2019-03-16,19:08:00,Cash,9.2,0.33,790.2
 194,WALM015,Grand Prairie,Home and lifestyle,25.55,4.0,2019-01-26,20:23:00,Ewallet,5.7,0.48,102.2
 195,WALM003,San Antonio,Electronic accessories,32.71,5.0,2019-03-19,11:30:00,Credit card,9.9,0.48,163.55
 196,WALM066,Grapevine,Fashion accessories,74.29,1.0,2019-01-13,19:30:00,Cash,5.0,0.33,74.29
@@ -199,7 +199,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 198,WALM002,Dallas,Home and lifestyle,25.29,1.0,2019-03-23,10:13:00,Ewallet,6.1,0.36,25.29
 199,WALM094,Alamo,Health and beauty,41.5,4.0,2019-12-03,19:58:00,Credit card,8.2,0.33,166.0
 200,WALM047,Flower Mound,Food and beverages,71.39,5.0,2019-02-17,19:57:00,Credit card,5.5,0.48,356.95
-201,WALM100,Canyon,Sports and travel,19.15,6.0,2019-01-29,10:01:00,Credit card,6.8,0.18,114.89999999999999
+201,WALM100,Canyon,Sports and travel,19.15,6.0,2019-01-29,10:01:00,Credit card,6.8,0.18,114.9
 202,WALM005,Fort Worth,Electronic accessories,57.49,4.0,2019-03-15,11:57:00,Cash,6.6,0.48,229.96
 203,WALM086,Rosenberg,Electronic accessories,61.41,7.0,2019-01-14,10:02:00,Cash,9.8,0.33,429.87
 204,WALM029,Round Rock,Health and beauty,25.9,10.0,2019-06-02,14:51:00,Ewallet,8.7,0.48,259.0
@@ -213,7 +213,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 212,WALM057,Euless,Food and beverages,93.26,9.0,2019-01-16,18:08:00,Cash,8.8,0.33,839.34
 213,WALM088,Cleburne,Home and lifestyle,92.36,5.0,2019-03-20,19:17:00,Ewallet,4.9,0.33,461.8
 214,WALM093,Angleton,Sports and travel,46.42,3.0,2019-04-01,13:24:00,Credit card,4.4,0.33,139.26
-215,WALM065,Texas City,Sports and travel,29.61,7.0,2019-11-03,15:53:00,Cash,6.5,0.33,207.26999999999998
+215,WALM065,Texas City,Sports and travel,29.61,7.0,2019-11-03,15:53:00,Cash,6.5,0.33,207.27
 216,WALM072,Lancaster,Home and lifestyle,18.28,1.0,2019-03-22,15:05:00,Credit card,8.3,0.33,18.28
 217,WALM038,Sugar Land,Sports and travel,24.77,5.0,2019-03-24,18:27:00,Cash,8.5,0.48,123.85
 218,WALM081,Friendswood,Electronic accessories,94.64,3.0,2019-02-21,16:55:00,Cash,5.5,0.33,283.92
@@ -221,7 +221,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 220,WALM044,Pharr,Food and beverages,57.34,3.0,2019-10-03,18:59:00,Credit card,7.9,0.48,172.02
 221,WALM002,Dallas,Electronic accessories,45.35,6.0,2019-01-31,13:44:00,Ewallet,6.1,0.36,272.1
 222,WALM056,Rowlett,Food and beverages,62.08,7.0,2019-06-03,13:46:00,Ewallet,5.4,0.33,434.56
-223,WALM020,Killeen,Electronic accessories,11.81,5.0,2019-02-17,18:06:00,Cash,9.4,0.48,59.050000000000004
+223,WALM020,Killeen,Electronic accessories,11.81,5.0,2019-02-17,18:06:00,Cash,9.4,0.48,59.05
 224,WALM026,Denton,Fashion accessories,12.54,1.0,2019-02-21,12:38:00,Cash,8.2,0.48,12.54
 225,WALM003,San Antonio,Food and beverages,43.25,2.0,2019-03-20,15:56:00,Cash,6.2,0.48,86.5
 226,WALM067,Haltom City,Sports and travel,87.16,2.0,2019-11-01,14:29:00,Credit card,9.7,0.33,174.32
@@ -231,13 +231,13 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 230,WALM087,Waxahachie,Home and lifestyle,63.42,8.0,2019-11-03,12:55:00,Ewallet,7.4,0.33,507.36
 231,WALM007,Arlington,Fashion accessories,81.37,2.0,2019-01-26,19:28:00,Cash,6.5,0.48,162.74
 232,WALM024,Carrollton,Electronic accessories,10.59,3.0,2019-12-03,13:52:00,Credit card,8.7,0.48,31.77
-233,WALM059,Pflugerville,Health and beauty,84.09,9.0,2019-11-02,10:54:00,Cash,8.0,0.33,756.8100000000001
+233,WALM059,Pflugerville,Health and beauty,84.09,9.0,2019-11-02,10:54:00,Cash,8.0,0.33,756.81
 234,WALM045,Missouri City,Fashion accessories,73.82,4.0,2019-02-21,18:31:00,Credit card,6.7,0.48,295.28
 235,WALM069,Rockwall,Health and beauty,51.94,10.0,2019-09-03,18:24:00,Ewallet,6.5,0.33,519.4
 236,WALM084,Schertz,Sports and travel,93.14,2.0,2019-01-20,18:09:00,Ewallet,4.1,0.33,186.28
 237,WALM068,Burleson,Health and beauty,17.41,5.0,2019-01-28,15:16:00,Credit card,4.9,0.33,87.05
 238,WALM023,Midland,Fashion accessories,44.22,5.0,2019-05-03,17:07:00,Credit card,8.6,0.48,221.1
-239,WALM040,Edinburg,Electronic accessories,13.22,5.0,2019-02-03,19:26:00,Cash,4.3,0.48,66.10000000000001
+239,WALM040,Edinburg,Electronic accessories,13.22,5.0,2019-02-03,19:26:00,Cash,4.3,0.48,66.1
 240,WALM085,Kerrville,Fashion accessories,89.69,1.0,2019-11-01,11:20:00,Ewallet,4.9,0.33,89.69
 241,WALM009,Plano,Food and beverages,24.94,9.0,2019-11-01,16:49:00,Credit card,5.6,0.48,224.46
 242,WALM100,Canyon,Health and beauty,59.77,2.0,2019-11-03,12:01:00,Credit card,5.8,0.18,119.54
@@ -245,7 +245,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 244,WALM034,College Station,Home and lifestyle,62.65,4.0,2019-05-01,11:25:00,Cash,4.2,0.48,250.6
 245,WALM070,Hurst,Home and lifestyle,93.87,8.0,2019-02-02,18:42:00,Credit card,8.3,0.33,750.96
 246,WALM021,McAllen,Home and lifestyle,47.59,8.0,2019-01-01,14:47:00,Cash,5.7,0.48,380.72
-247,WALM044,Pharr,Electronic accessories,81.4,3.0,2019-09-02,19:43:00,Cash,4.8,0.48,244.20000000000002
+247,WALM044,Pharr,Electronic accessories,81.4,3.0,2019-09-02,19:43:00,Cash,4.8,0.48,244.2
 248,WALM055,Waxahachie,Fashion accessories,17.94,5.0,2019-01-23,14:04:00,Ewallet,6.8,0.33,89.7
 249,WALM019,Pasadena,Electronic accessories,77.72,4.0,2019-07-01,16:11:00,Credit card,8.8,0.48,310.88
 250,WALM026,Denton,Food and beverages,73.06,7.0,2019-01-14,19:06:00,Credit card,4.2,0.48,511.42
@@ -262,35 +262,35 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 261,WALM074,Weslaco,Electronic accessories,75.06,9.0,2019-03-19,13:25:00,Cash,6.2,0.33,675.54
 262,WALM019,Pasadena,Fashion accessories,16.45,4.0,2019-07-03,14:53:00,Ewallet,5.6,0.48,65.8
 263,WALM022,Mesquite,Fashion accessories,38.3,4.0,2019-03-13,19:22:00,Cash,5.7,0.48,153.2
-264,WALM099,Weatherford,Sports and travel,22.24,10.0,2019-09-02,11:00:00,Cash,4.2,0.18,222.39999999999998
+264,WALM099,Weatherford,Sports and travel,22.24,10.0,2019-09-02,11:00:00,Cash,4.2,0.18,222.4
 265,WALM095,Big Spring,Sports and travel,54.45,1.0,2019-02-26,19:24:00,Ewallet,7.9,0.33,54.45
-266,WALM075,San Marcos,Sports and travel,98.4,7.0,2019-12-03,12:43:00,Credit card,8.7,0.33,688.8000000000001
+266,WALM075,San Marcos,Sports and travel,98.4,7.0,2019-12-03,12:43:00,Credit card,8.7,0.33,688.8
 267,WALM072,Lancaster,Home and lifestyle,35.47,4.0,2019-03-14,17:22:00,Credit card,6.9,0.33,141.88
 268,WALM081,Friendswood,Food and beverages,74.6,10.0,2019-08-01,20:55:00,Cash,9.5,0.33,746.0
 269,WALM001,Houston,Home and lifestyle,70.74,4.0,2019-05-01,16:05:00,Credit card,4.4,0.36,282.96
 270,WALM001,Houston,Home and lifestyle,35.54,10.0,2019-04-01,13:34:00,Ewallet,7.0,0.36,355.4
-271,WALM069,Rockwall,Sports and travel,67.43,5.0,2019-06-03,18:13:00,Ewallet,6.3,0.33,337.15000000000003
+271,WALM069,Rockwall,Sports and travel,67.43,5.0,2019-06-03,18:13:00,Ewallet,6.3,0.33,337.15
 272,WALM027,Abilene,Health and beauty,21.12,2.0,2019-03-01,19:17:00,Cash,9.7,0.48,42.24
-273,WALM094,Alamo,Home and lifestyle,21.54,9.0,2019-07-01,11:44:00,Credit card,8.8,0.33,193.85999999999999
+273,WALM094,Alamo,Home and lifestyle,21.54,9.0,2019-07-01,11:44:00,Credit card,8.8,0.33,193.86
 274,WALM025,Waco,Home and lifestyle,12.03,2.0,2019-01-27,15:51:00,Cash,5.1,0.48,24.06
 275,WALM042,Bryan,Health and beauty,99.71,6.0,2019-02-26,16:52:00,Ewallet,7.9,0.48,598.26
-276,WALM056,Rowlett,Fashion accessories,47.97,7.0,2019-07-01,20:52:00,Cash,6.2,0.33,335.78999999999996
+276,WALM056,Rowlett,Fashion accessories,47.97,7.0,2019-07-01,20:52:00,Cash,6.2,0.33,335.79
 277,WALM027,Abilene,Home and lifestyle,21.82,10.0,2019-07-01,17:36:00,Cash,7.1,0.48,218.2
 278,WALM046,Temple,Fashion accessories,95.42,4.0,2019-02-02,13:23:00,Ewallet,6.4,0.48,381.68
 279,WALM091,Little Elm,Fashion accessories,70.99,10.0,2019-03-20,16:28:00,Cash,5.7,0.33,709.9
-280,WALM051,New Braunfels,Sports and travel,44.02,10.0,2019-03-20,19:57:00,Credit card,9.6,0.48,440.20000000000005
+280,WALM051,New Braunfels,Sports and travel,44.02,10.0,2019-03-20,19:57:00,Credit card,9.6,0.48,440.2
 281,WALM073,Seguin,Home and lifestyle,69.96,8.0,2019-02-15,17:01:00,Credit card,6.4,0.33,559.68
 282,WALM036,Allen,Home and lifestyle,37.0,1.0,2019-06-03,13:29:00,Credit card,7.9,0.48,37.0
 283,WALM097,Alice,Sports and travel,15.34,1.0,2019-06-01,11:09:00,Cash,6.5,0.18,15.34
 284,WALM030,Richardson,Health and beauty,99.83,6.0,2019-04-03,15:02:00,Ewallet,8.5,0.48,598.98
 285,WALM079,La Porte,Health and beauty,47.67,4.0,2019-12-03,14:21:00,Cash,9.1,0.33,190.68
-286,WALM052,Mansfield,Health and beauty,66.68,5.0,2019-02-20,18:01:00,Cash,7.6,0.57,333.40000000000003
+286,WALM052,Mansfield,Health and beauty,66.68,5.0,2019-02-20,18:01:00,Cash,7.6,0.57,333.4
 287,WALM010,Laredo,Home and lifestyle,74.86,1.0,2019-03-24,14:49:00,Cash,6.9,0.48,74.86
 288,WALM079,La Porte,Sports and travel,23.75,9.0,2019-01-31,12:02:00,Cash,9.5,0.33,213.75
 289,WALM094,Alamo,Food and beverages,48.51,7.0,2019-01-25,13:30:00,Credit card,5.2,0.33,339.57
 290,WALM074,Weslaco,Home and lifestyle,94.88,7.0,2019-03-02,14:38:00,Cash,4.2,0.33,664.16
 291,WALM017,McKinney,Electronic accessories,40.3,10.0,2019-01-24,17:37:00,Credit card,7.0,0.48,403.0
-292,WALM040,Edinburg,Electronic accessories,27.85,7.0,2019-03-14,17:20:00,Ewallet,6.0,0.48,194.95000000000002
+292,WALM040,Edinburg,Electronic accessories,27.85,7.0,2019-03-14,17:20:00,Ewallet,6.0,0.48,194.95
 293,WALM007,Arlington,Electronic accessories,62.48,1.0,2019-02-18,20:29:00,Cash,4.7,0.48,62.48
 294,WALM015,Grand Prairie,Food and beverages,36.36,2.0,2019-01-21,10:00:00,Cash,7.1,0.48,72.72
 295,WALM023,Midland,Health and beauty,18.11,10.0,2019-03-13,11:46:00,Ewallet,5.9,0.48,181.1
@@ -304,19 +304,19 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 303,WALM031,Lewisville,Food and beverages,48.61,1.0,2019-02-25,15:31:00,Cash,4.4,0.48,48.61
 304,WALM026,Denton,Electronic accessories,51.19,4.0,2019-03-18,17:15:00,Credit card,4.7,0.48,204.76
 305,WALM045,Missouri City,Electronic accessories,14.96,8.0,2019-02-23,12:29:00,Credit card,8.6,0.48,119.68
-306,WALM053,Conroe,Electronic accessories,72.2,7.0,2019-03-26,20:14:00,Ewallet,4.3,0.21,505.40000000000003
-307,WALM088,Cleburne,Sports and travel,40.23,7.0,2019-03-30,13:22:00,Cash,9.6,0.33,281.60999999999996
+306,WALM053,Conroe,Electronic accessories,72.2,7.0,2019-03-26,20:14:00,Ewallet,4.3,0.21,505.4
+307,WALM088,Cleburne,Sports and travel,40.23,7.0,2019-03-30,13:22:00,Cash,9.6,0.33,281.61
 308,WALM066,Grapevine,Home and lifestyle,88.79,8.0,2019-02-17,17:09:00,Cash,4.1,0.33,710.32
 309,WALM033,Pearland,Electronic accessories,26.48,3.0,2019-03-21,10:40:00,Ewallet,4.7,0.48,79.44
 310,WALM012,Garland,Fashion accessories,81.91,2.0,2019-05-03,17:43:00,Cash,7.8,0.48,163.82
-311,WALM036,Allen,Sports and travel,79.93,6.0,2019-01-31,14:04:00,Cash,5.5,0.48,479.58000000000004
+311,WALM036,Allen,Sports and travel,79.93,6.0,2019-01-31,14:04:00,Cash,5.5,0.48,479.58
 312,WALM076,Huntsville,Fashion accessories,69.33,2.0,2019-05-02,19:05:00,Ewallet,9.7,0.33,138.66
 313,WALM012,Garland,Food and beverages,14.23,5.0,2019-01-02,10:08:00,Credit card,4.4,0.48,71.15
-314,WALM026,Denton,Health and beauty,15.55,9.0,2019-07-03,13:12:00,Cash,5.0,0.48,139.95000000000002
+314,WALM026,Denton,Health and beauty,15.55,9.0,2019-07-03,13:12:00,Cash,5.0,0.48,139.95
 315,WALM075,San Marcos,Electronic accessories,78.13,10.0,2019-10-02,20:51:00,Cash,4.4,0.33,781.3
 316,WALM030,Richardson,Food and beverages,99.37,2.0,2019-02-14,17:29:00,Cash,5.2,0.48,198.74
-317,WALM012,Garland,Food and beverages,21.08,3.0,2019-09-02,10:25:00,Cash,7.3,0.48,63.239999999999995
-318,WALM091,Little Elm,Electronic accessories,74.79,5.0,2019-10-01,11:34:00,Cash,4.9,0.33,373.95000000000005
+317,WALM012,Garland,Food and beverages,21.08,3.0,2019-09-02,10:25:00,Cash,7.3,0.48,63.24
+318,WALM091,Little Elm,Electronic accessories,74.79,5.0,2019-10-01,11:34:00,Cash,4.9,0.33,373.95
 319,WALM048,Harlingen,Health and beauty,29.67,7.0,2019-11-03,18:58:00,Credit card,8.1,0.48,207.69
 320,WALM059,Pflugerville,Health and beauty,44.07,4.0,2019-02-18,16:28:00,Ewallet,8.4,0.33,176.28
 321,WALM065,Texas City,Food and beverages,22.93,9.0,2019-02-26,20:26:00,Cash,5.5,0.33,206.37
@@ -330,28 +330,28 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 329,WALM052,Mansfield,Health and beauty,51.13,4.0,2019-01-25,10:11:00,Credit card,4.0,0.57,204.52
 330,WALM063,Georgetown,Electronic accessories,36.36,4.0,2019-03-25,13:07:00,Cash,7.6,0.33,145.44
 331,WALM071,Lufkin,Home and lifestyle,22.02,9.0,2019-07-02,18:48:00,Cash,6.8,0.33,198.18
-332,WALM076,Huntsville,Food and beverages,32.9,3.0,2019-02-17,17:27:00,Credit card,9.1,0.33,98.69999999999999
-333,WALM070,Hurst,Fashion accessories,77.02,5.0,2019-03-02,15:59:00,Cash,5.5,0.33,385.09999999999997
+332,WALM076,Huntsville,Food and beverages,32.9,3.0,2019-02-17,17:27:00,Credit card,9.1,0.33,98.7
+333,WALM070,Hurst,Fashion accessories,77.02,5.0,2019-03-02,15:59:00,Cash,5.5,0.33,385.1
 334,WALM034,College Station,Food and beverages,23.48,2.0,2019-03-14,11:21:00,Credit card,7.9,0.48,46.96
 335,WALM089,Southlake,Sports and travel,14.7,5.0,2019-03-24,13:48:00,Ewallet,8.5,0.33,73.5
 336,WALM032,Tyler,Electronic accessories,28.45,5.0,2019-03-21,10:17:00,Credit card,9.1,0.48,142.25
 337,WALM024,Carrollton,Fashion accessories,76.4,9.0,2019-03-19,15:49:00,Ewallet,7.5,0.48,687.6
-338,WALM100,Canyon,Sports and travel,57.95,6.0,2019-02-24,13:02:00,Cash,5.2,0.18,347.70000000000005
+338,WALM100,Canyon,Sports and travel,57.95,6.0,2019-02-24,13:02:00,Cash,5.2,0.18,347.7
 339,WALM016,Brownsville,Electronic accessories,47.65,3.0,2019-03-28,12:58:00,Credit card,9.5,0.48,142.95
 340,WALM051,New Braunfels,Food and beverages,42.82,9.0,2019-05-02,15:26:00,Credit card,8.9,0.48,385.38
 341,WALM014,Amarillo,Electronic accessories,48.09,3.0,2019-10-02,18:23:00,Credit card,7.8,0.48,144.27
-342,WALM030,Richardson,Health and beauty,55.97,7.0,2019-05-03,19:06:00,Ewallet,8.9,0.48,391.78999999999996
-343,WALM037,League City,Health and beauty,76.9,7.0,2019-02-15,20:21:00,Cash,7.7,0.48,538.3000000000001
+342,WALM030,Richardson,Health and beauty,55.97,7.0,2019-05-03,19:06:00,Ewallet,8.9,0.48,391.79
+343,WALM037,League City,Health and beauty,76.9,7.0,2019-02-15,20:21:00,Cash,7.7,0.48,538.3
 344,WALM045,Missouri City,Food and beverages,97.03,5.0,2019-01-30,16:24:00,Credit card,9.3,0.48,485.15
 345,WALM007,Arlington,Sports and travel,44.65,3.0,2019-02-14,15:04:00,Cash,6.2,0.48,133.95
-346,WALM057,Euless,Fashion accessories,77.93,9.0,2019-02-27,16:10:00,Ewallet,7.6,0.33,701.3700000000001
+346,WALM057,Euless,Fashion accessories,77.93,9.0,2019-02-27,16:10:00,Ewallet,7.6,0.33,701.37
 347,WALM096,Eagle Pass,Electronic accessories,71.95,1.0,2019-04-02,12:14:00,Cash,7.3,0.18,71.95
 348,WALM066,Grapevine,Home and lifestyle,89.25,8.0,2019-01-20,10:13:00,Cash,4.7,0.33,714.0
 349,WALM095,Big Spring,Electronic accessories,26.02,7.0,2019-03-28,17:38:00,Cash,5.1,0.33,182.14
 350,WALM087,Waxahachie,Health and beauty,13.5,10.0,2019-02-27,11:06:00,Credit card,4.8,0.33,135.0
 351,WALM017,McKinney,Fashion accessories,99.3,10.0,2019-02-15,14:53:00,Credit card,6.6,0.48,993.0
 352,WALM029,Round Rock,Electronic accessories,51.69,7.0,2019-01-26,18:22:00,Cash,5.5,0.48,361.83
-353,WALM098,Mineral Wells,Fashion accessories,54.73,7.0,2019-03-14,19:02:00,Credit card,8.5,0.18,383.10999999999996
+353,WALM098,Mineral Wells,Fashion accessories,54.73,7.0,2019-03-14,19:02:00,Credit card,8.5,0.18,383.11
 354,WALM019,Pasadena,Home and lifestyle,27.0,9.0,2019-02-03,14:16:00,Cash,4.8,0.48,243.0
 355,WALM082,Weslaco,Electronic accessories,30.24,1.0,2019-04-03,15:44:00,Cash,8.4,0.33,30.24
 356,WALM090,Brownwood,Food and beverages,89.14,4.0,2019-07-01,12:20:00,Credit card,7.8,0.33,356.56
@@ -369,11 +369,11 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 368,WALM048,Harlingen,Home and lifestyle,65.94,4.0,2019-03-24,10:29:00,Cash,6.0,0.48,263.76
 369,WALM026,Denton,Sports and travel,14.36,10.0,2019-01-27,14:28:00,Cash,5.4,0.48,143.6
 370,WALM018,Frisco,Electronic accessories,21.5,9.0,2019-06-03,12:46:00,Credit card,7.8,0.48,193.5
-371,WALM005,Fort Worth,Electronic accessories,26.26,7.0,2019-02-02,19:40:00,Cash,9.9,0.48,183.82000000000002
+371,WALM005,Fort Worth,Electronic accessories,26.26,7.0,2019-02-02,19:40:00,Cash,9.9,0.48,183.82
 372,WALM071,Lufkin,Fashion accessories,60.96,2.0,2019-01-25,19:39:00,Credit card,4.9,0.33,121.92
-373,WALM086,Rosenberg,Home and lifestyle,70.11,6.0,2019-03-14,17:54:00,Ewallet,5.2,0.33,420.65999999999997
+373,WALM086,Rosenberg,Home and lifestyle,70.11,6.0,2019-03-14,17:54:00,Ewallet,5.2,0.33,420.66
 374,WALM014,Amarillo,Fashion accessories,42.08,6.0,2019-01-29,12:25:00,Cash,8.9,0.48,252.48
-375,WALM020,Killeen,Home and lifestyle,67.09,5.0,2019-03-01,16:47:00,Credit card,9.1,0.48,335.45000000000005
+375,WALM020,Killeen,Home and lifestyle,67.09,5.0,2019-03-01,16:47:00,Credit card,9.1,0.48,335.45
 376,WALM009,Plano,Fashion accessories,96.7,5.0,2019-01-14,12:52:00,Ewallet,7.0,0.48,483.5
 377,WALM096,Eagle Pass,Home and lifestyle,35.38,9.0,2019-05-01,19:50:00,Credit card,9.6,0.33,318.42
 378,WALM037,League City,Sports and travel,95.49,7.0,2019-02-22,18:17:00,Ewallet,8.7,0.48,668.43
@@ -388,7 +388,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 387,WALM006,El Paso,Food and beverages,46.77,6.0,2019-11-03,13:37:00,Cash,6.0,0.48,280.62
 388,WALM034,College Station,Health and beauty,32.32,10.0,2019-02-20,16:49:00,Credit card,10.0,0.48,323.2
 389,WALM074,Weslaco,Fashion accessories,54.07,9.0,2019-01-27,14:55:00,Cash,9.5,0.33,486.63
-390,WALM066,Grapevine,Food and beverages,18.22,7.0,2019-10-03,14:04:00,Credit card,6.6,0.33,127.53999999999999
+390,WALM066,Grapevine,Food and beverages,18.22,7.0,2019-10-03,14:04:00,Credit card,6.6,0.33,127.54
 391,WALM021,McAllen,Fashion accessories,80.48,3.0,2019-02-15,12:31:00,Cash,8.1,0.48,241.44
 392,WALM002,Dallas,Fashion accessories,37.95,10.0,2019-01-26,14:51:00,Cash,9.7,0.36,379.5
 393,WALM020,Killeen,Electronic accessories,76.82,1.0,2019-02-13,18:27:00,Ewallet,7.2,0.48,76.82
@@ -399,13 +399,13 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 398,WALM092,Lake Jackson,Home and lifestyle,13.59,9.0,2019-03-15,10:26:00,Cash,5.8,0.33,122.31
 399,WALM017,McKinney,Health and beauty,41.06,6.0,2019-05-03,13:30:00,Credit card,8.3,0.48,246.36
 400,WALM016,Brownsville,Electronic accessories,19.24,9.0,2019-04-03,16:28:00,Cash,8.0,0.48,173.16
-401,WALM081,Friendswood,Food and beverages,39.43,6.0,2019-03-25,20:18:00,Credit card,9.4,0.33,236.57999999999998
+401,WALM081,Friendswood,Food and beverages,39.43,6.0,2019-03-25,20:18:00,Credit card,9.4,0.33,236.58
 402,WALM084,Schertz,Home and lifestyle,46.22,4.0,2019-12-03,20:04:00,Credit card,6.2,0.33,184.88
 403,WALM030,Richardson,Home and lifestyle,13.98,1.0,2019-04-02,13:38:00,Ewallet,9.8,0.48,13.98
 404,WALM010,Laredo,Fashion accessories,39.75,5.0,2019-02-22,10:43:00,Ewallet,9.6,0.48,198.75
-405,WALM027,Abilene,Fashion accessories,97.79,7.0,2019-02-16,17:30:00,Ewallet,4.9,0.48,684.5300000000001
+405,WALM027,Abilene,Fashion accessories,97.79,7.0,2019-02-16,17:30:00,Ewallet,4.9,0.48,684.53
 406,WALM095,Big Spring,Sports and travel,67.26,4.0,2019-01-19,15:28:00,Credit card,8.0,0.33,269.04
-407,WALM009,Plano,Food and beverages,13.79,5.0,2019-11-01,19:07:00,Credit card,7.8,0.48,68.94999999999999
+407,WALM009,Plano,Food and beverages,13.79,5.0,2019-11-01,19:07:00,Credit card,7.8,0.48,68.95
 408,WALM051,New Braunfels,Fashion accessories,68.71,4.0,2019-04-01,19:01:00,Cash,4.1,0.48,274.84
 409,WALM004,Austin,Home and lifestyle,56.53,4.0,2019-04-03,19:48:00,Ewallet,5.5,0.48,226.12
 410,WALM047,Flower Mound,Fashion accessories,23.82,5.0,2019-01-28,19:24:00,Ewallet,5.4,0.48,119.1
@@ -419,20 +419,20 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 418,WALM053,Conroe,Health and beauty,81.51,1.0,2019-01-22,10:57:00,Ewallet,9.2,0.57,81.51
 419,WALM062,Galveston,Health and beauty,57.22,2.0,2019-12-01,17:13:00,Ewallet,8.3,0.33,114.44
 420,WALM098,Mineral Wells,Electronic accessories,25.22,7.0,2019-04-02,10:23:00,Cash,8.2,0.18,176.54
-421,WALM055,Waxahachie,Food and beverages,38.6,3.0,2019-03-28,13:57:00,Ewallet,7.5,0.33,115.80000000000001
-422,WALM046,Temple,Electronic accessories,84.05,3.0,2019-01-23,13:29:00,Cash,9.8,0.48,252.14999999999998
-423,WALM022,Mesquite,Fashion accessories,97.21,10.0,2019-08-02,13:00:00,Credit card,8.7,0.48,972.0999999999999
+421,WALM055,Waxahachie,Food and beverages,38.6,3.0,2019-03-28,13:57:00,Ewallet,7.5,0.33,115.8
+422,WALM046,Temple,Electronic accessories,84.05,3.0,2019-01-23,13:29:00,Cash,9.8,0.48,252.15
+423,WALM022,Mesquite,Fashion accessories,97.21,10.0,2019-08-02,13:00:00,Credit card,8.7,0.48,972.1
 424,WALM032,Tyler,Fashion accessories,25.42,8.0,2019-03-19,19:42:00,Credit card,6.7,0.48,203.36
 425,WALM022,Mesquite,Fashion accessories,16.28,1.0,2019-09-03,15:36:00,Cash,5.0,0.48,16.28
 426,WALM048,Harlingen,Fashion accessories,40.61,9.0,2019-02-01,13:40:00,Cash,7.0,0.48,365.49
 427,WALM100,Canyon,Health and beauty,53.17,7.0,2019-01-21,18:01:00,Cash,8.9,0.18,372.19
 428,WALM039,Longview,Food and beverages,20.87,3.0,2019-03-20,13:53:00,Credit card,8.0,0.48,62.61
-429,WALM095,Big Spring,Sports and travel,67.27,5.0,2019-02-27,17:27:00,Cash,6.9,0.33,336.34999999999997
+429,WALM095,Big Spring,Sports and travel,67.27,5.0,2019-02-27,17:27:00,Cash,6.9,0.33,336.35
 430,WALM003,San Antonio,Home and lifestyle,90.65,10.0,2019-08-03,10:53:00,Ewallet,7.3,0.36,906.5
 431,WALM084,Schertz,Fashion accessories,69.08,2.0,2019-01-31,19:48:00,Credit card,6.9,0.33,138.16
 432,WALM010,Laredo,Food and beverages,43.27,2.0,2019-08-03,16:53:00,Ewallet,5.7,0.48,86.54
 433,WALM062,Galveston,Electronic accessories,23.46,6.0,2019-01-13,19:14:00,Ewallet,6.4,0.33,140.76
-434,WALM030,Richardson,Fashion accessories,95.54,7.0,2019-09-03,14:36:00,Credit card,9.6,0.48,668.7800000000001
+434,WALM030,Richardson,Fashion accessories,95.54,7.0,2019-09-03,14:36:00,Credit card,9.6,0.48,668.78
 435,WALM075,San Marcos,Fashion accessories,47.44,1.0,2019-02-22,18:19:00,Credit card,6.8,0.33,47.44
 436,WALM044,Pharr,Sports and travel,99.24,9.0,2019-03-19,19:09:00,Ewallet,9.0,0.48,893.16
 437,WALM009,Plano,Sports and travel,82.93,4.0,2019-01-20,16:51:00,Ewallet,9.6,0.48,331.72
@@ -443,7 +443,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 442,WALM001,Houston,Sports and travel,88.43,8.0,2019-03-22,19:35:00,Credit card,4.3,0.36,707.44
 443,WALM029,Round Rock,Home and lifestyle,89.21,9.0,2019-01-15,15:42:00,Credit card,6.5,0.48,802.89
 444,WALM050,Victoria,Fashion accessories,12.78,1.0,2019-08-01,14:11:00,Ewallet,9.5,0.48,12.78
-445,WALM069,Rockwall,Sports and travel,19.1,7.0,2019-01-15,10:43:00,Cash,9.7,0.33,133.70000000000002
+445,WALM069,Rockwall,Sports and travel,19.1,7.0,2019-01-15,10:43:00,Cash,9.7,0.33,133.7
 446,WALM011,Lubbock,Health and beauty,19.15,1.0,2019-01-28,17:58:00,Credit card,9.5,0.48,19.15
 447,WALM027,Abilene,Food and beverages,27.66,10.0,2019-02-14,11:26:00,Credit card,8.9,0.48,276.6
 448,WALM028,Odessa,Fashion accessories,45.74,3.0,2019-10-03,17:38:00,Credit card,6.5,0.48,137.22
@@ -454,16 +454,16 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 453,WALM068,Burleson,Food and beverages,63.61,5.0,2019-03-16,12:43:00,Ewallet,4.8,0.33,318.05
 454,WALM069,Rockwall,Health and beauty,25.0,1.0,2019-03-03,15:09:00,Ewallet,5.5,0.33,25.0
 455,WALM028,Odessa,Electronic accessories,20.77,4.0,2019-01-31,13:47:00,Cash,4.7,0.48,83.08
-456,WALM010,Laredo,Fashion accessories,29.56,5.0,2019-02-13,16:59:00,Cash,6.9,0.48,147.79999999999998
+456,WALM010,Laredo,Fashion accessories,29.56,5.0,2019-02-13,16:59:00,Cash,6.9,0.48,147.8
 457,WALM080,Nacogdoches,Food and beverages,77.4,9.0,2019-02-15,14:15:00,Credit card,4.5,0.33,696.6
 458,WALM005,Fort Worth,Electronic accessories,79.39,10.0,2019-07-02,20:24:00,Cash,6.2,0.48,793.9
 459,WALM091,Little Elm,Electronic accessories,46.57,10.0,2019-01-27,13:58:00,Cash,7.6,0.33,465.7
 460,WALM074,Weslaco,Food and beverages,35.89,1.0,2019-02-23,16:52:00,Cash,7.9,0.33,35.89
-461,WALM064,Bedford,Food and beverages,40.52,5.0,2019-03-02,15:19:00,Cash,4.5,0.33,202.60000000000002
+461,WALM064,Bedford,Food and beverages,40.52,5.0,2019-03-02,15:19:00,Cash,4.5,0.33,202.6
 462,WALM086,Rosenberg,Food and beverages,73.05,10.0,2019-03-03,12:25:00,Credit card,8.7,0.33,730.5
 463,WALM026,Denton,Sports and travel,73.95,4.0,2019-03-02,10:02:00,Cash,6.1,0.48,295.8
 464,WALM057,Euless,Food and beverages,22.62,1.0,2019-03-17,18:58:00,Cash,6.4,0.33,22.62
-465,WALM042,Bryan,Food and beverages,51.34,5.0,2019-03-28,15:31:00,Credit card,9.1,0.48,256.70000000000005
+465,WALM042,Bryan,Food and beverages,51.34,5.0,2019-03-28,15:31:00,Credit card,9.1,0.48,256.7
 466,WALM095,Big Spring,Sports and travel,54.55,10.0,2019-02-03,11:22:00,Credit card,7.1,0.33,545.5
 467,WALM094,Alamo,Health and beauty,37.15,7.0,2019-08-02,13:12:00,Credit card,7.7,0.33,260.05
 468,WALM047,Flower Mound,Sports and travel,37.02,6.0,2019-03-22,18:33:00,Cash,4.5,0.48,222.12
@@ -474,29 +474,29 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 473,WALM076,Huntsville,Fashion accessories,43.13,10.0,2019-02-02,18:31:00,Credit card,5.5,0.33,431.3
 474,WALM088,Cleburne,Health and beauty,72.57,8.0,2019-03-30,17:58:00,Cash,4.6,0.33,580.56
 475,WALM003,San Antonio,Electronic accessories,64.44,5.0,2019-03-30,17:04:00,Cash,6.6,0.48,322.2
-476,WALM010,Laredo,Health and beauty,65.18,3.0,2019-02-25,20:35:00,Credit card,6.3,0.48,195.54000000000002
-477,WALM059,Pflugerville,Sports and travel,33.26,5.0,2019-03-18,16:10:00,Credit card,4.2,0.33,166.29999999999998
+476,WALM010,Laredo,Health and beauty,65.18,3.0,2019-02-25,20:35:00,Credit card,6.3,0.48,195.54
+477,WALM059,Pflugerville,Sports and travel,33.26,5.0,2019-03-18,16:10:00,Credit card,4.2,0.33,166.3
 478,WALM020,Killeen,Electronic accessories,84.07,4.0,2019-07-03,16:54:00,Ewallet,4.4,0.48,336.28
 479,WALM059,Pflugerville,Sports and travel,34.37,10.0,2019-03-16,10:11:00,Ewallet,6.7,0.33,343.7
 480,WALM057,Euless,Electronic accessories,38.6,1.0,2019-01-29,11:26:00,Ewallet,6.7,0.33,38.6
 481,WALM078,Del Rio,Food and beverages,65.97,8.0,2019-02-02,20:29:00,Cash,8.4,0.33,527.76
 482,WALM066,Grapevine,Electronic accessories,32.8,10.0,2019-02-15,12:12:00,Cash,6.2,0.33,328.0
 483,WALM094,Alamo,Sports and travel,37.14,5.0,2019-08-01,13:05:00,Ewallet,5.0,0.33,185.7
-484,WALM080,Nacogdoches,Home and lifestyle,60.38,10.0,2019-12-02,16:19:00,Cash,6.0,0.33,603.8000000000001
-485,WALM003,San Antonio,Sports and travel,36.98,10.0,2019-01-01,19:48:00,Credit card,7.0,0.36,369.79999999999995
+484,WALM080,Nacogdoches,Home and lifestyle,60.38,10.0,2019-12-02,16:19:00,Cash,6.0,0.33,603.8
+485,WALM003,San Antonio,Sports and travel,36.98,10.0,2019-01-01,19:48:00,Credit card,7.0,0.36,369.8
 486,WALM060,DeSoto,Sports and travel,49.49,4.0,2019-03-21,15:25:00,Ewallet,6.6,0.33,197.96
-487,WALM026,Denton,Fashion accessories,41.09,10.0,2019-02-28,14:42:00,Cash,7.3,0.48,410.90000000000003
+487,WALM026,Denton,Fashion accessories,41.09,10.0,2019-02-28,14:42:00,Cash,7.3,0.48,410.9
 488,WALM080,Nacogdoches,Fashion accessories,37.15,4.0,2019-03-23,18:59:00,Ewallet,8.3,0.33,148.6
 489,WALM050,Victoria,Home and lifestyle,22.96,1.0,2019-01-30,20:47:00,Ewallet,4.3,0.48,22.96
-490,WALM063,Georgetown,Home and lifestyle,77.68,9.0,2019-04-02,13:21:00,Ewallet,9.8,0.33,699.1200000000001
+490,WALM063,Georgetown,Home and lifestyle,77.68,9.0,2019-04-02,13:21:00,Ewallet,9.8,0.33,699.12
 491,WALM051,New Braunfels,Fashion accessories,34.7,2.0,2019-03-13,19:48:00,Ewallet,8.2,0.48,69.4
 492,WALM004,Austin,Fashion accessories,19.66,10.0,2019-03-15,18:20:00,Credit card,7.2,0.48,196.6
 493,WALM085,Kerrville,Health and beauty,25.32,8.0,2019-05-03,20:24:00,Ewallet,8.7,0.33,202.56
-494,WALM011,Lubbock,Home and lifestyle,12.12,10.0,2019-05-03,13:44:00,Credit card,8.4,0.48,121.19999999999999
+494,WALM011,Lubbock,Home and lifestyle,12.12,10.0,2019-05-03,13:44:00,Credit card,8.4,0.48,121.2
 495,WALM081,Friendswood,Fashion accessories,99.89,2.0,2019-02-26,11:48:00,Ewallet,7.1,0.33,199.78
 496,WALM019,Pasadena,Sports and travel,75.92,8.0,2019-03-20,14:14:00,Cash,5.5,0.48,607.36
 497,WALM053,Conroe,Electronic accessories,63.22,2.0,2019-01-01,15:51:00,Cash,8.5,0.21,126.44
-498,WALM098,Mineral Wells,Food and beverages,90.24,6.0,2019-01-27,11:17:00,Cash,6.2,0.18,541.4399999999999
+498,WALM098,Mineral Wells,Food and beverages,90.24,6.0,2019-01-27,11:17:00,Cash,6.2,0.18,541.44
 499,WALM073,Seguin,Sports and travel,98.13,1.0,2019-01-21,17:36:00,Cash,8.9,0.33,98.13
 500,WALM071,Lufkin,Sports and travel,51.52,8.0,2019-02-02,15:47:00,Cash,9.6,0.33,412.16
 501,WALM087,Waxahachie,Sports and travel,73.97,1.0,2019-03-02,15:53:00,Credit card,5.4,0.33,73.97
@@ -506,12 +506,12 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 505,WALM048,Harlingen,Sports and travel,88.45,1.0,2019-02-25,16:36:00,Credit card,9.5,0.48,88.45
 506,WALM040,Edinburg,Electronic accessories,24.18,8.0,2019-01-28,20:54:00,Ewallet,9.8,0.48,193.44
 507,WALM019,Pasadena,Sports and travel,48.5,3.0,2019-08-01,12:50:00,Cash,6.7,0.48,145.5
-508,WALM059,Pflugerville,Food and beverages,84.05,6.0,2019-01-29,10:48:00,Credit card,7.7,0.33,504.29999999999995
+508,WALM059,Pflugerville,Food and beverages,84.05,6.0,2019-01-29,10:48:00,Credit card,7.7,0.33,504.3
 509,WALM077,Coppell,Health and beauty,61.29,5.0,2019-03-29,14:28:00,Cash,7.0,0.33,306.45
-510,WALM055,Waxahachie,Home and lifestyle,15.95,6.0,2019-09-02,17:15:00,Credit card,5.1,0.33,95.69999999999999
+510,WALM055,Waxahachie,Home and lifestyle,15.95,6.0,2019-09-02,17:15:00,Credit card,5.1,0.33,95.7
 511,WALM057,Euless,Sports and travel,90.74,7.0,2019-01-16,18:03:00,Credit card,6.2,0.33,635.18
-512,WALM007,Arlington,Home and lifestyle,42.91,5.0,2019-05-01,17:29:00,Ewallet,6.1,0.48,214.54999999999998
-513,WALM071,Lufkin,Fashion accessories,54.28,7.0,2019-01-27,18:05:00,Ewallet,9.3,0.33,379.96000000000004
+512,WALM007,Arlington,Home and lifestyle,42.91,5.0,2019-05-01,17:29:00,Ewallet,6.1,0.48,214.55
+513,WALM071,Lufkin,Fashion accessories,54.28,7.0,2019-01-27,18:05:00,Ewallet,9.3,0.33,379.96
 514,WALM088,Cleburne,Electronic accessories,99.55,7.0,2019-03-14,12:07:00,Cash,7.6,0.33,696.85
 515,WALM051,New Braunfels,Sports and travel,58.39,7.0,2019-02-23,19:49:00,Credit card,8.2,0.48,408.73
 516,WALM025,Waco,Fashion accessories,51.47,1.0,2019-03-18,15:52:00,Ewallet,8.5,0.48,51.47
@@ -524,29 +524,29 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 523,WALM035,San Angelo,Home and lifestyle,37.44,6.0,2019-06-02,13:55:00,Credit card,5.9,0.48,224.64
 524,WALM075,San Marcos,Health and beauty,62.87,2.0,2019-01-01,11:43:00,Cash,5.0,0.33,125.74
 525,WALM075,San Marcos,Food and beverages,81.71,6.0,2019-01-27,14:36:00,Credit card,8.0,0.33,490.26
-526,WALM074,Weslaco,Sports and travel,91.41,5.0,2019-02-25,16:03:00,Cash,7.1,0.33,457.04999999999995
+526,WALM074,Weslaco,Sports and travel,91.41,5.0,2019-02-25,16:03:00,Cash,7.1,0.33,457.05
 527,WALM095,Big Spring,Fashion accessories,39.21,4.0,2019-01-16,20:03:00,Credit card,9.0,0.33,156.84
 528,WALM013,Irving,Fashion accessories,59.86,2.0,2019-01-13,14:55:00,Ewallet,6.7,0.48,119.72
 529,WALM056,Rowlett,Food and beverages,54.36,10.0,2019-07-02,11:28:00,Credit card,6.1,0.33,543.6
-530,WALM019,Pasadena,Sports and travel,98.09,9.0,2019-02-17,19:41:00,Cash,9.3,0.48,882.8100000000001
-531,WALM073,Seguin,Health and beauty,25.43,6.0,2019-12-02,19:01:00,Ewallet,7.0,0.33,152.57999999999998
+530,WALM019,Pasadena,Sports and travel,98.09,9.0,2019-02-17,19:41:00,Cash,9.3,0.48,882.81
+531,WALM073,Seguin,Health and beauty,25.43,6.0,2019-12-02,19:01:00,Ewallet,7.0,0.33,152.58
 532,WALM082,Weslaco,Fashion accessories,86.68,8.0,2019-01-24,18:04:00,Cash,7.2,0.33,693.44
 533,WALM063,Georgetown,Electronic accessories,22.95,10.0,2019-06-02,19:20:00,Ewallet,8.2,0.33,229.5
 534,WALM085,Kerrville,Food and beverages,16.31,9.0,2019-03-26,10:31:00,Ewallet,8.4,0.33,146.79
 535,WALM036,Allen,Home and lifestyle,28.32,5.0,2019-11-03,13:28:00,Ewallet,6.2,0.48,141.6
-536,WALM082,Weslaco,Home and lifestyle,16.67,7.0,2019-07-02,11:36:00,Cash,7.4,0.33,116.69000000000001
+536,WALM082,Weslaco,Home and lifestyle,16.67,7.0,2019-07-02,11:36:00,Cash,7.4,0.33,116.69
 537,WALM063,Georgetown,Fashion accessories,73.96,1.0,2019-05-01,11:32:00,Credit card,5.0,0.33,73.96
 538,WALM029,Round Rock,Home and lifestyle,97.94,1.0,2019-07-03,11:44:00,Ewallet,6.9,0.48,97.94
 539,WALM098,Mineral Wells,Fashion accessories,73.05,4.0,2019-02-25,17:16:00,Credit card,4.9,0.18,292.2
 540,WALM062,Galveston,Food and beverages,87.48,6.0,2019-01-02,18:43:00,Ewallet,5.1,0.33,524.88
-541,WALM042,Bryan,Home and lifestyle,30.68,3.0,2019-01-22,11:00:00,Ewallet,9.1,0.48,92.03999999999999
+541,WALM042,Bryan,Home and lifestyle,30.68,3.0,2019-01-22,11:00:00,Ewallet,9.1,0.48,92.04
 542,WALM048,Harlingen,Health and beauty,75.88,1.0,2019-03-01,10:30:00,Credit card,7.1,0.48,75.88
 543,WALM091,Little Elm,Sports and travel,20.18,4.0,2019-02-13,12:14:00,Credit card,5.0,0.33,80.72
 544,WALM055,Waxahachie,Electronic accessories,18.77,6.0,2019-01-28,16:43:00,Credit card,5.5,0.33,112.62
 545,WALM097,Alice,Food and beverages,71.2,1.0,2019-05-01,20:40:00,Credit card,9.2,0.18,71.2
 546,WALM089,Southlake,Home and lifestyle,38.81,4.0,2019-03-19,13:40:00,Ewallet,4.9,0.33,155.24
-547,WALM004,Austin,Fashion accessories,29.42,10.0,2019-12-01,16:23:00,Ewallet,8.9,0.48,294.20000000000005
-548,WALM093,Angleton,Sports and travel,60.95,9.0,2019-07-01,12:08:00,Credit card,6.0,0.33,548.5500000000001
+547,WALM004,Austin,Fashion accessories,29.42,10.0,2019-12-01,16:23:00,Ewallet,8.9,0.48,294.2
+548,WALM093,Angleton,Sports and travel,60.95,9.0,2019-07-01,12:08:00,Credit card,6.0,0.33,548.55
 549,WALM057,Euless,Sports and travel,51.54,5.0,2019-01-26,17:45:00,Cash,4.2,0.33,257.7
 550,WALM037,League City,Electronic accessories,66.06,6.0,2019-01-23,10:28:00,Cash,7.3,0.48,396.36
 551,WALM066,Grapevine,Fashion accessories,57.27,3.0,2019-09-02,20:31:00,Ewallet,6.5,0.33,171.81
@@ -556,25 +556,25 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 555,WALM061,Cedar Park,Electronic accessories,19.32,7.0,2019-03-25,18:51:00,Cash,6.9,0.33,135.24
 556,WALM014,Amarillo,Home and lifestyle,37.48,3.0,2019-01-20,13:45:00,Credit card,7.7,0.48,112.44
 557,WALM012,Garland,Fashion accessories,72.04,2.0,2019-04-02,19:38:00,Cash,9.5,0.48,144.08
-558,WALM042,Bryan,Food and beverages,98.52,10.0,2019-01-30,20:23:00,Ewallet,4.5,0.48,985.1999999999999
-559,WALM036,Allen,Food and beverages,41.66,6.0,2019-02-01,15:24:00,Ewallet,5.6,0.48,249.95999999999998
+558,WALM042,Bryan,Food and beverages,98.52,10.0,2019-01-30,20:23:00,Ewallet,4.5,0.48,985.2
+559,WALM036,Allen,Food and beverages,41.66,6.0,2019-02-01,15:24:00,Ewallet,5.6,0.48,249.96
 560,WALM087,Waxahachie,Home and lifestyle,72.42,3.0,2019-03-29,16:54:00,Ewallet,8.2,0.33,217.26
-561,WALM050,Victoria,Electronic accessories,21.58,9.0,2019-03-14,12:32:00,Ewallet,7.3,0.48,194.21999999999997
+561,WALM050,Victoria,Electronic accessories,21.58,9.0,2019-03-14,12:32:00,Ewallet,7.3,0.48,194.22
 562,WALM080,Nacogdoches,Food and beverages,89.2,10.0,2019-11-02,15:42:00,Credit card,4.4,0.33,892.0
 563,WALM089,Southlake,Electronic accessories,42.42,8.0,2019-01-30,13:58:00,Ewallet,5.7,0.33,339.36
-564,WALM083,Farmers Branch,Electronic accessories,74.51,6.0,2019-03-20,15:08:00,Ewallet,5.0,0.33,447.06000000000006
+564,WALM083,Farmers Branch,Electronic accessories,74.51,6.0,2019-03-20,15:08:00,Ewallet,5.0,0.33,447.06
 565,WALM020,Killeen,Fashion accessories,99.25,2.0,2019-03-20,13:02:00,Cash,9.0,0.48,198.5
-566,WALM049,North Richland Hills,Food and beverages,81.21,10.0,2019-01-17,13:01:00,Credit card,6.3,0.48,812.0999999999999
-567,WALM090,Brownwood,Sports and travel,49.33,10.0,2019-03-02,16:40:00,Credit card,9.4,0.33,493.29999999999995
+566,WALM049,North Richland Hills,Food and beverages,81.21,10.0,2019-01-17,13:01:00,Credit card,6.3,0.48,812.1
+567,WALM090,Brownwood,Sports and travel,49.33,10.0,2019-03-02,16:40:00,Credit card,9.4,0.33,493.3
 568,WALM083,Farmers Branch,Fashion accessories,65.74,9.0,2019-01-01,13:55:00,Cash,7.7,0.33,591.66
 569,WALM074,Weslaco,Fashion accessories,79.86,7.0,2019-10-01,10:33:00,Cash,5.5,0.33,559.02
 570,WALM082,Weslaco,Sports and travel,73.98,7.0,2019-02-03,16:42:00,Cash,4.1,0.33,517.86
-571,WALM046,Temple,Home and lifestyle,82.04,5.0,2019-02-25,17:16:00,Credit card,7.6,0.48,410.20000000000005
-572,WALM092,Lake Jackson,Sports and travel,26.67,10.0,2019-01-29,11:48:00,Cash,8.6,0.33,266.70000000000005
-573,WALM012,Garland,Food and beverages,10.13,7.0,2019-10-03,19:35:00,Ewallet,8.3,0.48,70.91000000000001
+571,WALM046,Temple,Home and lifestyle,82.04,5.0,2019-02-25,17:16:00,Credit card,7.6,0.48,410.2
+572,WALM092,Lake Jackson,Sports and travel,26.67,10.0,2019-01-29,11:48:00,Cash,8.6,0.33,266.7
+573,WALM012,Garland,Food and beverages,10.13,7.0,2019-10-03,19:35:00,Ewallet,8.3,0.48,70.91
 574,WALM063,Georgetown,Food and beverages,72.39,2.0,2019-01-13,19:55:00,Credit card,8.1,0.33,144.78
-575,WALM030,Richardson,Sports and travel,85.91,5.0,2019-03-22,14:33:00,Credit card,8.6,0.48,429.54999999999995
-576,WALM047,Flower Mound,Fashion accessories,81.31,7.0,2019-01-03,19:49:00,Ewallet,6.3,0.48,569.1700000000001
+575,WALM030,Richardson,Sports and travel,85.91,5.0,2019-03-22,14:33:00,Credit card,8.6,0.48,429.55
+576,WALM047,Flower Mound,Fashion accessories,81.31,7.0,2019-01-03,19:49:00,Ewallet,6.3,0.48,569.17
 577,WALM052,Mansfield,Food and beverages,60.3,4.0,2019-02-20,18:43:00,Cash,5.8,0.57,241.2
 578,WALM027,Abilene,Food and beverages,31.77,4.0,2019-01-14,14:43:00,Ewallet,6.2,0.48,127.08
 579,WALM087,Waxahachie,Health and beauty,64.27,4.0,2019-03-26,13:54:00,Cash,7.7,0.33,257.08
@@ -590,13 +590,13 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 589,WALM062,Galveston,Fashion accessories,59.61,10.0,2019-03-14,11:07:00,Cash,5.3,0.33,596.1
 590,WALM081,Friendswood,Health and beauty,14.62,5.0,2019-04-03,12:23:00,Cash,4.4,0.33,73.1
 591,WALM071,Lufkin,Health and beauty,46.53,6.0,2019-03-03,10:54:00,Credit card,4.3,0.33,279.18
-592,WALM030,Richardson,Home and lifestyle,24.24,7.0,2019-01-27,17:38:00,Ewallet,9.4,0.48,169.67999999999998
+592,WALM030,Richardson,Home and lifestyle,24.24,7.0,2019-01-27,17:38:00,Ewallet,9.4,0.48,169.68
 593,WALM046,Temple,Sports and travel,45.58,1.0,2019-07-02,14:13:00,Cash,9.8,0.48,45.58
-594,WALM028,Odessa,Sports and travel,75.2,3.0,2019-05-02,11:51:00,Ewallet,4.8,0.48,225.60000000000002
+594,WALM028,Odessa,Sports and travel,75.2,3.0,2019-05-02,11:51:00,Ewallet,4.8,0.48,225.6
 595,WALM070,Hurst,Sports and travel,96.8,3.0,2019-03-15,13:05:00,Cash,5.3,0.33,290.4
 596,WALM026,Denton,Health and beauty,14.82,3.0,2019-01-03,11:30:00,Credit card,8.7,0.48,44.46
-597,WALM081,Friendswood,Food and beverages,52.2,3.0,2019-02-15,13:30:00,Credit card,9.5,0.33,156.60000000000002
-598,WALM020,Killeen,Sports and travel,46.66,9.0,2019-02-17,19:11:00,Ewallet,5.3,0.48,419.93999999999994
+597,WALM081,Friendswood,Food and beverages,52.2,3.0,2019-02-15,13:30:00,Credit card,9.5,0.33,156.6
+598,WALM020,Killeen,Sports and travel,46.66,9.0,2019-02-17,19:11:00,Ewallet,5.3,0.48,419.94
 599,WALM048,Harlingen,Fashion accessories,36.85,5.0,2019-01-26,18:53:00,Cash,9.2,0.48,184.25
 600,WALM047,Flower Mound,Home and lifestyle,70.32,2.0,2019-03-24,14:22:00,Ewallet,9.6,0.48,140.64
 601,WALM080,Nacogdoches,Electronic accessories,83.08,1.0,2019-01-23,17:16:00,Ewallet,6.4,0.33,83.08
@@ -611,15 +611,15 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 610,WALM029,Round Rock,Food and beverages,57.89,2.0,2019-01-17,10:37:00,Ewallet,8.9,0.48,115.78
 611,WALM038,Sugar Land,Electronic accessories,28.96,1.0,2019-07-02,10:18:00,Credit card,6.2,0.48,28.96
 612,WALM052,Mansfield,Food and beverages,98.97,9.0,2019-09-03,11:23:00,Cash,6.7,0.57,890.73
-613,WALM069,Rockwall,Fashion accessories,93.22,3.0,2019-01-24,11:45:00,Cash,7.2,0.33,279.65999999999997
+613,WALM069,Rockwall,Fashion accessories,93.22,3.0,2019-01-24,11:45:00,Cash,7.2,0.33,279.66
 614,WALM045,Missouri City,Sports and travel,80.93,1.0,2019-01-19,16:08:00,Credit card,9.0,0.48,80.93
 615,WALM012,Garland,Food and beverages,67.45,10.0,2019-03-02,11:25:00,Ewallet,4.2,0.48,674.5
 616,WALM092,Lake Jackson,Sports and travel,38.72,9.0,2019-03-20,12:24:00,Ewallet,4.2,0.33,348.48
-617,WALM068,Burleson,Sports and travel,72.6,6.0,2019-01-13,19:51:00,Cash,6.9,0.33,435.59999999999997
-618,WALM098,Mineral Wells,Electronic accessories,87.91,5.0,2019-03-14,18:10:00,Ewallet,4.4,0.18,439.54999999999995
-619,WALM030,Richardson,Food and beverages,98.53,6.0,2019-01-23,11:22:00,Credit card,4.0,0.48,591.1800000000001
+617,WALM068,Burleson,Sports and travel,72.6,6.0,2019-01-13,19:51:00,Cash,6.9,0.33,435.6
+618,WALM098,Mineral Wells,Electronic accessories,87.91,5.0,2019-03-14,18:10:00,Ewallet,4.4,0.18,439.55
+619,WALM030,Richardson,Food and beverages,98.53,6.0,2019-01-23,11:22:00,Credit card,4.0,0.48,591.18
 620,WALM019,Pasadena,Fashion accessories,43.46,6.0,2019-07-02,17:55:00,Ewallet,8.5,0.48,260.76
-621,WALM074,Weslaco,Food and beverages,71.68,3.0,2019-03-28,15:30:00,Cash,9.2,0.33,215.04000000000002
+621,WALM074,Weslaco,Food and beverages,71.68,3.0,2019-03-28,15:30:00,Cash,9.2,0.33,215.04
 622,WALM074,Weslaco,Food and beverages,91.61,1.0,2019-03-20,19:44:00,Cash,9.8,0.33,91.61
 623,WALM017,McKinney,Home and lifestyle,94.59,7.0,2019-01-17,15:27:00,Credit card,4.9,0.48,662.13
 624,WALM032,Tyler,Fashion accessories,83.25,10.0,2019-12-01,11:25:00,Credit card,4.4,0.48,832.5
@@ -627,7 +627,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 626,WALM020,Killeen,Food and beverages,78.88,2.0,2019-01-26,16:04:00,Cash,9.1,0.48,157.76
 627,WALM075,San Marcos,Sports and travel,60.87,2.0,2019-09-03,12:37:00,Ewallet,8.7,0.33,121.74
 628,WALM043,Baytown,Health and beauty,82.58,10.0,2019-03-14,14:41:00,Cash,5.0,0.48,825.8
-629,WALM049,North Richland Hills,Home and lifestyle,53.3,3.0,2019-01-25,14:19:00,Ewallet,7.5,0.48,159.89999999999998
+629,WALM049,North Richland Hills,Home and lifestyle,53.3,3.0,2019-01-25,14:19:00,Ewallet,7.5,0.48,159.9
 630,WALM059,Pflugerville,Fashion accessories,12.09,1.0,2019-01-26,18:19:00,Credit card,8.2,0.33,12.09
 631,WALM006,El Paso,Sports and travel,64.19,10.0,2019-01-19,14:08:00,Credit card,6.7,0.48,641.9
 632,WALM001,Houston,Electronic accessories,78.31,3.0,2019-05-03,16:38:00,Ewallet,5.4,0.36,234.93
@@ -637,7 +637,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 636,WALM003,San Antonio,Health and beauty,66.47,10.0,2019-01-15,15:01:00,Credit card,5.0,0.48,664.7
 637,WALM038,Sugar Land,Health and beauty,28.95,7.0,2019-03-03,20:31:00,Credit card,6.0,0.48,202.65
 638,WALM023,Midland,Electronic accessories,46.2,1.0,2019-03-19,12:16:00,Cash,6.3,0.48,46.2
-639,WALM002,Dallas,Food and beverages,17.63,5.0,2019-08-03,15:27:00,Cash,8.5,0.36,88.14999999999999
+639,WALM002,Dallas,Food and beverages,17.63,5.0,2019-08-03,15:27:00,Cash,8.5,0.36,88.15
 640,WALM066,Grapevine,Fashion accessories,52.42,3.0,2019-02-27,17:36:00,Ewallet,7.5,0.33,157.26
 641,WALM076,Huntsville,Food and beverages,98.79,3.0,2019-02-23,20:00:00,Ewallet,6.4,0.33,296.37
 642,WALM025,Waco,Electronic accessories,88.55,8.0,2019-03-19,15:29:00,Ewallet,4.7,0.48,708.4
@@ -648,15 +648,15 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 647,WALM045,Missouri City,Health and beauty,70.21,6.0,2019-03-30,14:58:00,Credit card,7.4,0.48,421.26
 648,WALM030,Richardson,Fashion accessories,33.63,1.0,2019-03-20,19:55:00,Cash,5.6,0.48,33.63
 649,WALM055,Waxahachie,Sports and travel,15.49,2.0,2019-01-16,15:10:00,Cash,6.3,0.33,30.98
-650,WALM077,Coppell,Electronic accessories,24.74,10.0,2019-02-24,16:44:00,Cash,7.1,0.33,247.39999999999998
-651,WALM088,Cleburne,Electronic accessories,75.66,5.0,2019-01-15,18:22:00,Ewallet,7.8,0.33,378.29999999999995
+650,WALM077,Coppell,Electronic accessories,24.74,10.0,2019-02-24,16:44:00,Cash,7.1,0.33,247.4
+651,WALM088,Cleburne,Electronic accessories,75.66,5.0,2019-01-15,18:22:00,Ewallet,7.8,0.33,378.3
 652,WALM060,DeSoto,Health and beauty,55.81,6.0,2019-01-22,11:52:00,Cash,9.9,0.33,334.86
 653,WALM020,Killeen,Home and lifestyle,72.78,10.0,2019-03-02,17:24:00,Cash,7.3,0.48,727.8
 654,WALM090,Brownwood,Sports and travel,37.32,9.0,2019-06-03,15:31:00,Ewallet,5.1,0.33,335.88
 655,WALM032,Tyler,Fashion accessories,60.18,4.0,2019-02-16,18:04:00,Credit card,9.4,0.48,240.72
 656,WALM073,Seguin,Electronic accessories,15.69,3.0,2019-03-14,14:13:00,Credit card,5.8,0.33,47.07
 657,WALM027,Abilene,Electronic accessories,99.69,1.0,2019-02-27,10:23:00,Credit card,8.0,0.48,99.69
-658,WALM054,Sherman,Fashion accessories,88.15,3.0,2019-01-18,10:11:00,Ewallet,7.9,0.21,264.45000000000005
+658,WALM054,Sherman,Fashion accessories,88.15,3.0,2019-01-18,10:11:00,Ewallet,7.9,0.21,264.45
 659,WALM071,Lufkin,Sports and travel,27.93,5.0,2019-01-29,15:48:00,Cash,5.9,0.33,139.65
 660,WALM093,Angleton,Fashion accessories,55.45,1.0,2019-02-26,17:46:00,Credit card,4.9,0.33,55.45
 661,WALM021,McAllen,Sports and travel,42.97,3.0,2019-03-02,11:46:00,Cash,9.3,0.48,128.91
@@ -673,7 +673,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 672,WALM007,Arlington,Food and beverages,93.4,2.0,2019-03-30,16:34:00,Cash,5.5,0.48,186.8
 673,WALM077,Coppell,Health and beauty,73.41,3.0,2019-02-03,13:10:00,Ewallet,4.0,0.33,220.23
 674,WALM064,Bedford,Health and beauty,33.64,8.0,2019-02-15,17:10:00,Credit card,9.3,0.33,269.12
-675,WALM003,San Antonio,Electronic accessories,45.48,10.0,2019-01-03,10:22:00,Credit card,4.8,0.48,454.79999999999995
+675,WALM003,San Antonio,Electronic accessories,45.48,10.0,2019-01-03,10:22:00,Credit card,4.8,0.48,454.8
 676,WALM080,Nacogdoches,Fashion accessories,83.77,2.0,2019-02-24,19:57:00,Cash,4.6,0.33,167.54
 677,WALM062,Galveston,Sports and travel,64.08,7.0,2019-02-19,19:29:00,Credit card,7.3,0.33,448.56
 678,WALM066,Grapevine,Food and beverages,73.47,4.0,2019-02-23,18:30:00,Cash,6.0,0.33,293.88
@@ -688,19 +688,19 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 687,WALM003,San Antonio,Sports and travel,64.83,2.0,2019-08-01,11:59:00,Credit card,8.0,0.36,129.66
 688,WALM089,Southlake,Home and lifestyle,63.56,10.0,2019-01-16,17:59:00,Cash,4.3,0.33,635.6
 689,WALM058,Port Arthur,Sports and travel,72.88,2.0,2019-03-13,12:51:00,Cash,6.1,0.33,145.76
-690,WALM083,Farmers Branch,Food and beverages,67.1,3.0,2019-02-15,10:36:00,Cash,7.5,0.33,201.29999999999998
+690,WALM083,Farmers Branch,Food and beverages,67.1,3.0,2019-02-15,10:36:00,Cash,7.5,0.33,201.3
 691,WALM057,Euless,Sports and travel,70.19,9.0,2019-01-25,13:38:00,Cash,6.7,0.33,631.71
 692,WALM089,Southlake,Food and beverages,55.04,7.0,2019-12-03,19:39:00,Ewallet,5.2,0.33,385.28
 693,WALM022,Mesquite,Health and beauty,48.63,10.0,2019-04-03,12:44:00,Cash,8.8,0.48,486.3
 694,WALM012,Garland,Fashion accessories,73.38,7.0,2019-10-02,13:56:00,Cash,9.5,0.48,513.66
-695,WALM009,Plano,Food and beverages,52.6,9.0,2019-01-16,14:42:00,Cash,7.6,0.48,473.40000000000003
+695,WALM009,Plano,Food and beverages,52.6,9.0,2019-01-16,14:42:00,Cash,7.6,0.48,473.4
 696,WALM052,Mansfield,Home and lifestyle,87.37,5.0,2019-01-29,19:45:00,Cash,6.6,0.57,436.85
 697,WALM040,Edinburg,Sports and travel,27.04,4.0,2019-01-01,20:26:00,Ewallet,6.9,0.48,108.16
 698,WALM079,La Porte,Home and lifestyle,62.19,4.0,2019-06-01,19:46:00,Ewallet,4.3,0.33,248.76
 699,WALM088,Cleburne,Electronic accessories,69.58,9.0,2019-02-19,19:38:00,Credit card,7.8,0.33,626.22
 700,WALM066,Grapevine,Home and lifestyle,97.5,10.0,2019-12-01,16:18:00,Ewallet,8.0,0.33,975.0
 701,WALM061,Cedar Park,Fashion accessories,60.41,8.0,2019-07-02,12:23:00,Ewallet,9.6,0.33,483.28
-702,WALM059,Pflugerville,Food and beverages,32.32,3.0,2019-03-27,19:11:00,Credit card,4.3,0.33,96.96000000000001
+702,WALM059,Pflugerville,Food and beverages,32.32,3.0,2019-03-27,19:11:00,Credit card,4.3,0.33,96.96
 703,WALM046,Temple,Fashion accessories,19.77,10.0,2019-02-27,18:57:00,Credit card,5.0,0.48,197.7
 704,WALM044,Pharr,Health and beauty,80.47,9.0,2019-06-01,11:18:00,Cash,9.2,0.48,724.23
 705,WALM042,Bryan,Home and lifestyle,88.39,9.0,2019-02-03,12:40:00,Cash,6.3,0.48,795.51
@@ -712,17 +712,17 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 711,WALM080,Nacogdoches,Food and beverages,80.62,6.0,2019-02-28,20:18:00,Cash,9.1,0.33,483.72
 712,WALM007,Arlington,Home and lifestyle,75.53,4.0,2019-03-19,15:52:00,Ewallet,8.3,0.48,302.12
 713,WALM074,Weslaco,Electronic accessories,77.63,9.0,2019-02-19,15:14:00,Cash,7.2,0.33,698.67
-714,WALM021,McAllen,Health and beauty,13.85,9.0,2019-04-02,12:50:00,Ewallet,6.0,0.48,124.64999999999999
+714,WALM021,McAllen,Health and beauty,13.85,9.0,2019-04-02,12:50:00,Ewallet,6.0,0.48,124.65
 715,WALM049,North Richland Hills,Fashion accessories,98.7,8.0,2019-01-31,10:36:00,Ewallet,8.5,0.48,789.6
 716,WALM057,Euless,Health and beauty,35.68,5.0,2019-06-02,18:33:00,Credit card,6.6,0.33,178.4
-717,WALM079,La Porte,Fashion accessories,71.46,7.0,2019-03-28,16:06:00,Ewallet,4.5,0.33,500.21999999999997
+717,WALM079,La Porte,Fashion accessories,71.46,7.0,2019-03-28,16:06:00,Ewallet,4.5,0.33,500.22
 718,WALM040,Edinburg,Electronic accessories,11.94,3.0,2019-01-19,12:47:00,Credit card,8.1,0.48,35.82
-719,WALM099,Weatherford,Fashion accessories,45.38,3.0,2019-02-17,13:34:00,Credit card,7.2,0.18,136.14000000000001
+719,WALM099,Weatherford,Fashion accessories,45.38,3.0,2019-02-17,13:34:00,Credit card,7.2,0.18,136.14
 720,WALM056,Rowlett,Fashion accessories,17.48,6.0,2019-01-18,15:04:00,Credit card,6.1,0.33,104.88
 721,WALM004,Austin,Fashion accessories,25.56,7.0,2019-02-02,20:42:00,Cash,7.1,0.48,178.92
 722,WALM018,Frisco,Sports and travel,90.63,9.0,2019-01-18,15:28:00,Cash,5.1,0.48,815.67
-723,WALM087,Waxahachie,Home and lifestyle,44.12,3.0,2019-03-18,13:45:00,Credit card,7.9,0.33,132.35999999999999
-724,WALM008,Corpus Christi,Food and beverages,36.77,7.0,2019-11-01,20:10:00,Cash,7.4,0.48,257.39000000000004
+723,WALM087,Waxahachie,Home and lifestyle,44.12,3.0,2019-03-18,13:45:00,Credit card,7.9,0.33,132.36
+724,WALM008,Corpus Christi,Food and beverages,36.77,7.0,2019-11-01,20:10:00,Cash,7.4,0.48,257.39
 725,WALM060,DeSoto,Food and beverages,23.34,4.0,2019-04-02,18:53:00,Ewallet,7.4,0.33,93.36
 726,WALM084,Schertz,Health and beauty,28.5,8.0,2019-06-02,14:24:00,Cash,6.6,0.33,228.0
 727,WALM067,Haltom City,Home and lifestyle,55.57,3.0,2019-08-01,11:42:00,Credit card,5.9,0.33,166.71
@@ -745,13 +745,13 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 744,WALM067,Haltom City,Home and lifestyle,37.69,2.0,2019-02-20,15:29:00,Ewallet,9.5,0.33,75.38
 745,WALM002,Dallas,Sports and travel,31.67,8.0,2019-02-01,16:19:00,Credit card,5.6,0.36,253.36
 746,WALM081,Friendswood,Food and beverages,38.42,1.0,2019-02-02,16:33:00,Cash,8.6,0.33,38.42
-747,WALM062,Galveston,Fashion accessories,65.23,10.0,2019-08-01,19:07:00,Credit card,5.2,0.33,652.3000000000001
+747,WALM062,Galveston,Fashion accessories,65.23,10.0,2019-08-01,19:07:00,Credit card,5.2,0.33,652.3
 748,WALM016,Brownsville,Home and lifestyle,10.53,5.0,2019-01-30,14:43:00,Credit card,5.8,0.48,52.65
-749,WALM025,Waco,Home and lifestyle,12.29,9.0,2019-03-26,19:28:00,Credit card,8.0,0.48,110.60999999999999
+749,WALM025,Waco,Home and lifestyle,12.29,9.0,2019-03-26,19:28:00,Credit card,8.0,0.48,110.61
 750,WALM005,Fort Worth,Health and beauty,81.23,7.0,2019-01-15,20:44:00,Cash,9.0,0.48,568.61
 751,WALM060,DeSoto,Fashion accessories,22.32,4.0,2019-03-14,11:16:00,Ewallet,4.1,0.33,89.28
 752,WALM090,Brownwood,Food and beverages,27.28,5.0,2019-03-02,10:31:00,Credit card,8.6,0.33,136.4
-753,WALM075,San Marcos,Electronic accessories,17.42,10.0,2019-02-22,12:30:00,Ewallet,7.0,0.33,174.20000000000002
+753,WALM075,San Marcos,Electronic accessories,17.42,10.0,2019-02-22,12:30:00,Ewallet,7.0,0.33,174.2
 754,WALM074,Weslaco,Home and lifestyle,73.28,5.0,2019-01-24,15:05:00,Cash,8.4,0.33,366.4
 755,WALM021,McAllen,Fashion accessories,84.87,3.0,2019-01-25,18:30:00,Ewallet,7.4,0.48,254.61
 756,WALM072,Lancaster,Fashion accessories,97.29,8.0,2019-09-03,13:18:00,Credit card,6.2,0.33,778.32
@@ -762,7 +762,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 761,WALM003,San Antonio,Food and beverages,77.2,10.0,2019-11-02,10:38:00,Credit card,5.6,0.48,772.0
 762,WALM069,Rockwall,Electronic accessories,72.13,10.0,2019-01-31,15:12:00,Credit card,4.2,0.33,721.3
 763,WALM071,Lufkin,Fashion accessories,63.88,8.0,2019-01-20,17:48:00,Ewallet,9.9,0.33,511.04
-764,WALM070,Hurst,Health and beauty,10.69,5.0,2019-03-26,11:07:00,Ewallet,7.6,0.33,53.449999999999996
+764,WALM070,Hurst,Health and beauty,10.69,5.0,2019-03-26,11:07:00,Ewallet,7.6,0.33,53.45
 765,WALM004,Austin,Health and beauty,55.5,4.0,2019-01-20,15:48:00,Credit card,6.6,0.48,222.0
 766,WALM017,McKinney,Home and lifestyle,95.46,8.0,2019-05-03,19:40:00,Ewallet,4.7,0.48,763.68
 767,WALM056,Rowlett,Fashion accessories,76.06,3.0,2019-05-01,20:30:00,Credit card,9.8,0.33,228.18
@@ -771,7 +771,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 770,WALM020,Killeen,Home and lifestyle,11.43,6.0,2019-01-15,17:24:00,Cash,7.7,0.48,68.58
 771,WALM065,Texas City,Sports and travel,95.54,4.0,2019-02-26,11:58:00,Ewallet,4.5,0.33,382.16
 772,WALM039,Longview,Health and beauty,85.87,7.0,2019-02-27,19:01:00,Credit card,8.0,0.48,601.09
-773,WALM046,Temple,Sports and travel,67.99,7.0,2019-02-17,16:50:00,Ewallet,5.7,0.48,475.92999999999995
+773,WALM046,Temple,Sports and travel,67.99,7.0,2019-02-17,16:50:00,Ewallet,5.7,0.48,475.93
 774,WALM060,DeSoto,Food and beverages,52.42,1.0,2019-06-02,10:22:00,Credit card,6.3,0.33,52.42
 775,WALM052,Mansfield,Food and beverages,65.65,2.0,2019-01-17,16:46:00,Cash,6.0,0.57,131.3
 776,WALM053,Conroe,Food and beverages,28.86,5.0,2019-01-22,18:08:00,Credit card,8.0,0.57,144.3
@@ -792,25 +792,25 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 791,WALM031,Lewisville,Fashion accessories,46.41,1.0,2019-03-03,20:06:00,Credit card,4.0,0.48,46.41
 792,WALM038,Sugar Land,Health and beauty,68.55,4.0,2019-02-15,20:21:00,Credit card,9.2,0.48,274.2
 793,WALM008,Corpus Christi,Home and lifestyle,97.37,10.0,2019-01-15,13:48:00,Credit card,4.9,0.48,973.7
-794,WALM022,Mesquite,Electronic accessories,92.6,7.0,2019-02-27,12:52:00,Credit card,9.3,0.48,648.1999999999999
+794,WALM022,Mesquite,Electronic accessories,92.6,7.0,2019-02-27,12:52:00,Credit card,9.3,0.48,648.2
 795,WALM100,Canyon,Electronic accessories,46.61,2.0,2019-02-26,12:28:00,Credit card,6.6,0.18,93.22
 796,WALM001,Houston,Fashion accessories,27.18,2.0,2019-03-15,16:26:00,Ewallet,4.3,0.36,54.36
 797,WALM067,Haltom City,Home and lifestyle,60.87,1.0,2019-01-24,13:24:00,Cash,5.5,0.33,60.87
-798,WALM072,Lancaster,Sports and travel,24.49,10.0,2019-02-22,15:15:00,Cash,8.1,0.33,244.89999999999998
+798,WALM072,Lancaster,Sports and travel,24.49,10.0,2019-02-22,15:15:00,Cash,8.1,0.33,244.9
 799,WALM098,Mineral Wells,Health and beauty,92.78,1.0,2019-03-15,10:50:00,Credit card,9.8,0.18,92.78
 800,WALM067,Haltom City,Home and lifestyle,86.69,5.0,2019-11-02,18:38:00,Ewallet,9.4,0.33,433.45
 801,WALM075,San Marcos,Sports and travel,23.01,6.0,2019-12-01,16:45:00,Ewallet,7.9,0.33,138.06
 802,WALM005,Fort Worth,Electronic accessories,30.2,8.0,2019-03-03,19:30:00,Ewallet,5.1,0.48,241.6
 803,WALM037,League City,Fashion accessories,67.39,7.0,2019-03-23,13:23:00,Ewallet,6.9,0.48,471.73
 804,WALM096,Eagle Pass,Fashion accessories,48.96,9.0,2019-04-03,11:27:00,Cash,8.0,0.18,440.64
-805,WALM009,Plano,Electronic accessories,75.59,9.0,2019-02-23,11:12:00,Cash,8.0,0.48,680.3100000000001
+805,WALM009,Plano,Electronic accessories,75.59,9.0,2019-02-23,11:12:00,Cash,8.0,0.48,680.31
 806,WALM074,Weslaco,Home and lifestyle,77.47,4.0,2019-03-17,16:36:00,Cash,4.2,0.33,309.88
 807,WALM080,Nacogdoches,Sports and travel,93.18,2.0,2019-01-16,18:41:00,Credit card,8.5,0.33,186.36
 808,WALM025,Waco,Electronic accessories,50.23,4.0,2019-08-01,17:12:00,Cash,9.0,0.48,200.92
 809,WALM040,Edinburg,Health and beauty,17.75,1.0,2019-01-14,10:38:00,Cash,8.6,0.48,17.75
 810,WALM059,Pflugerville,Fashion accessories,62.18,10.0,2019-01-31,10:33:00,Ewallet,6.0,0.33,621.8
 811,WALM016,Brownsville,Health and beauty,10.75,8.0,2019-03-15,14:38:00,Ewallet,6.2,0.48,86.0
-812,WALM082,Weslaco,Electronic accessories,40.26,10.0,2019-02-24,18:06:00,Cash,5.0,0.33,402.59999999999997
+812,WALM082,Weslaco,Electronic accessories,40.26,10.0,2019-02-24,18:06:00,Cash,5.0,0.33,402.6
 813,WALM086,Rosenberg,Sports and travel,64.97,5.0,2019-08-02,12:52:00,Credit card,6.5,0.33,324.85
 814,WALM077,Coppell,Electronic accessories,95.15,1.0,2019-03-22,14:00:00,Cash,6.0,0.33,95.15
 815,WALM028,Odessa,Electronic accessories,48.62,8.0,2019-01-24,10:57:00,Cash,5.0,0.48,388.96
@@ -818,7 +818,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 817,WALM058,Port Arthur,Fashion accessories,45.44,7.0,2019-01-23,11:15:00,Cash,9.2,0.33,318.08
 818,WALM078,Del Rio,Food and beverages,33.88,8.0,2019-01-19,20:29:00,Ewallet,9.6,0.33,271.04
 819,WALM008,Corpus Christi,Health and beauty,96.16,4.0,2019-01-27,20:03:00,Credit card,8.4,0.48,384.64
-820,WALM086,Rosenberg,Food and beverages,47.16,5.0,2019-03-02,14:35:00,Credit card,6.0,0.33,235.79999999999998
+820,WALM086,Rosenberg,Food and beverages,47.16,5.0,2019-03-02,14:35:00,Credit card,6.0,0.33,235.8
 821,WALM069,Rockwall,Electronic accessories,52.89,4.0,2019-03-25,16:32:00,Ewallet,6.7,0.33,211.56
 822,WALM009,Plano,Home and lifestyle,47.68,2.0,2019-02-24,10:10:00,Credit card,4.1,0.48,95.36
 823,WALM048,Harlingen,Sports and travel,10.17,1.0,2019-07-02,14:15:00,Cash,5.9,0.48,10.17
@@ -833,22 +833,22 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 832,WALM087,Waxahachie,Health and beauty,62.57,4.0,2019-02-25,18:37:00,Cash,9.5,0.33,250.28
 833,WALM078,Del Rio,Sports and travel,11.85,8.0,2019-09-01,16:34:00,Cash,4.1,0.33,94.8
 834,WALM082,Weslaco,Health and beauty,91.3,1.0,2019-02-14,14:42:00,Cash,9.2,0.33,91.3
-835,WALM060,DeSoto,Home and lifestyle,40.73,7.0,2019-12-03,11:01:00,Ewallet,5.4,0.33,285.10999999999996
+835,WALM060,DeSoto,Home and lifestyle,40.73,7.0,2019-12-03,11:01:00,Ewallet,5.4,0.33,285.11
 836,WALM074,Weslaco,Fashion accessories,52.38,1.0,2019-03-26,19:44:00,Cash,5.8,0.33,52.38
 837,WALM083,Farmers Branch,Fashion accessories,38.54,5.0,2019-09-01,13:34:00,Ewallet,5.6,0.33,192.7
-838,WALM098,Mineral Wells,Sports and travel,44.63,6.0,2019-02-01,20:08:00,Credit card,5.1,0.18,267.78000000000003
-839,WALM076,Huntsville,Electronic accessories,55.87,10.0,2019-01-15,15:01:00,Cash,5.8,0.33,558.6999999999999
+838,WALM098,Mineral Wells,Sports and travel,44.63,6.0,2019-02-01,20:08:00,Credit card,5.1,0.18,267.78
+839,WALM076,Huntsville,Electronic accessories,55.87,10.0,2019-01-15,15:01:00,Cash,5.8,0.33,558.7
 840,WALM085,Kerrville,Sports and travel,29.22,6.0,2019-01-01,11:40:00,Ewallet,5.0,0.33,175.32
 841,WALM056,Rowlett,Fashion accessories,51.94,3.0,2019-02-15,15:21:00,Cash,7.9,0.33,155.82
 842,WALM070,Hurst,Electronic accessories,60.3,1.0,2019-02-28,17:38:00,Cash,6.0,0.33,60.3
 843,WALM080,Nacogdoches,Sports and travel,39.47,2.0,2019-02-03,16:16:00,Credit card,5.0,0.33,78.94
 844,WALM061,Cedar Park,Food and beverages,14.87,2.0,2019-02-13,18:15:00,Credit card,8.9,0.33,29.74
 845,WALM051,New Braunfels,Fashion accessories,21.32,1.0,2019-01-26,12:43:00,Cash,5.9,0.48,21.32
-846,WALM051,New Braunfels,Electronic accessories,93.78,3.0,2019-01-30,11:32:00,Credit card,5.9,0.57,281.34000000000003
+846,WALM051,New Braunfels,Electronic accessories,93.78,3.0,2019-01-30,11:32:00,Credit card,5.9,0.57,281.34
 847,WALM018,Frisco,Electronic accessories,73.26,1.0,2019-01-27,18:08:00,Ewallet,9.7,0.48,73.26
 848,WALM026,Denton,Sports and travel,22.38,1.0,2019-01-30,17:08:00,Credit card,8.6,0.48,22.38
 849,WALM017,McKinney,Food and beverages,72.88,9.0,2019-08-01,19:38:00,Cash,4.0,0.48,655.92
-850,WALM033,Pearland,Fashion accessories,99.1,6.0,2019-01-19,13:11:00,Cash,4.2,0.48,594.5999999999999
+850,WALM033,Pearland,Fashion accessories,99.1,6.0,2019-01-19,13:11:00,Cash,4.2,0.48,594.6
 851,WALM055,Waxahachie,Fashion accessories,74.1,1.0,2019-01-25,11:05:00,Cash,9.2,0.33,74.1
 852,WALM054,Sherman,Fashion accessories,98.48,2.0,2019-02-19,10:12:00,Ewallet,9.2,0.21,196.96
 853,WALM030,Richardson,Health and beauty,53.19,7.0,2019-01-14,15:42:00,Ewallet,5.0,0.48,372.33
@@ -867,7 +867,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 866,WALM075,San Marcos,Health and beauty,33.81,3.0,2019-01-26,15:11:00,Ewallet,7.3,0.33,101.43
 867,WALM085,Kerrville,Sports and travel,90.53,8.0,2019-03-15,14:48:00,Credit card,6.5,0.33,724.24
 868,WALM053,Conroe,Health and beauty,62.82,2.0,2019-01-17,12:36:00,Ewallet,4.9,0.57,125.64
-869,WALM051,New Braunfels,Food and beverages,24.31,3.0,2019-08-01,19:09:00,Credit card,4.3,0.48,72.92999999999999
+869,WALM051,New Braunfels,Food and beverages,24.31,3.0,2019-08-01,19:09:00,Credit card,4.3,0.48,72.93
 870,WALM035,San Angelo,Sports and travel,64.59,4.0,2019-06-01,13:35:00,Ewallet,9.3,0.48,258.36
 871,WALM074,Weslaco,Food and beverages,24.82,7.0,2019-02-16,10:33:00,Cash,7.1,0.33,173.74
 872,WALM091,Little Elm,Fashion accessories,56.5,1.0,2019-03-13,15:45:00,Ewallet,9.6,0.33,56.5
@@ -889,17 +889,17 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 888,WALM001,Houston,Electronic accessories,73.47,10.0,2019-03-23,13:14:00,Ewallet,9.5,0.36,734.7
 889,WALM093,Angleton,Fashion accessories,12.19,8.0,2019-03-13,12:47:00,Ewallet,6.8,0.33,97.52
 890,WALM025,Waco,Sports and travel,76.92,10.0,2019-03-17,19:53:00,Ewallet,5.6,0.48,769.2
-891,WALM092,Lake Jackson,Health and beauty,83.66,5.0,2019-02-21,10:26:00,Cash,7.2,0.33,418.29999999999995
+891,WALM092,Lake Jackson,Health and beauty,83.66,5.0,2019-02-21,10:26:00,Cash,7.2,0.33,418.3
 892,WALM059,Pflugerville,Electronic accessories,57.91,8.0,2019-07-02,15:06:00,Cash,8.1,0.33,463.28
 893,WALM015,Grand Prairie,Fashion accessories,92.49,5.0,2019-02-03,16:35:00,Credit card,8.6,0.48,462.45
 894,WALM063,Georgetown,Electronic accessories,28.38,5.0,2019-06-03,20:57:00,Cash,9.4,0.33,141.9
-895,WALM075,San Marcos,Electronic accessories,50.45,6.0,2019-06-02,15:16:00,Credit card,8.9,0.33,302.70000000000005
+895,WALM075,San Marcos,Electronic accessories,50.45,6.0,2019-06-02,15:16:00,Credit card,8.9,0.33,302.7
 896,WALM051,New Braunfels,Health and beauty,99.16,8.0,2019-01-28,17:47:00,Credit card,4.2,0.48,793.28
 897,WALM060,DeSoto,Fashion accessories,60.74,7.0,2019-01-18,16:23:00,Ewallet,5.0,0.33,425.18
 898,WALM039,Longview,Food and beverages,47.27,6.0,2019-05-02,10:17:00,Cash,8.8,0.48,283.62
-899,WALM008,Corpus Christi,Health and beauty,85.6,7.0,2019-02-03,13:50:00,Cash,5.3,0.48,599.1999999999999
+899,WALM008,Corpus Christi,Health and beauty,85.6,7.0,2019-02-03,13:50:00,Cash,5.3,0.48,599.2
 900,WALM083,Farmers Branch,Food and beverages,35.04,9.0,2019-09-02,19:17:00,Ewallet,4.6,0.33,315.36
-901,WALM039,Longview,Electronic accessories,44.84,9.0,2019-01-14,14:00:00,Credit card,7.5,0.48,403.56000000000006
+901,WALM039,Longview,Electronic accessories,44.84,9.0,2019-01-14,14:00:00,Credit card,7.5,0.48,403.56
 902,WALM099,Weatherford,Home and lifestyle,45.97,4.0,2019-09-02,12:02:00,Ewallet,5.1,0.18,183.88
 903,WALM011,Lubbock,Health and beauty,27.73,5.0,2019-03-26,20:21:00,Credit card,4.2,0.48,138.65
 904,WALM052,Mansfield,Food and beverages,11.53,7.0,2019-01-28,17:35:00,Cash,8.1,0.57,80.71
@@ -908,12 +908,12 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 907,WALM064,Bedford,Health and beauty,84.61,10.0,2019-09-02,18:58:00,Credit card,8.8,0.33,846.1
 908,WALM075,San Marcos,Health and beauty,82.88,5.0,2019-03-24,14:08:00,Credit card,6.6,0.33,414.4
 909,WALM021,McAllen,Food and beverages,79.54,2.0,2019-03-27,16:30:00,Ewallet,6.2,0.48,159.08
-910,WALM009,Plano,Home and lifestyle,49.01,10.0,2019-01-27,10:44:00,Credit card,4.2,0.48,490.09999999999997
-911,WALM063,Georgetown,Food and beverages,29.15,3.0,2019-03-27,20:29:00,Credit card,7.3,0.33,87.44999999999999
+910,WALM009,Plano,Home and lifestyle,49.01,10.0,2019-01-27,10:44:00,Credit card,4.2,0.48,490.1
+911,WALM063,Georgetown,Food and beverages,29.15,3.0,2019-03-27,20:29:00,Credit card,7.3,0.33,87.45
 912,WALM002,Dallas,Electronic accessories,56.13,4.0,2019-01-19,11:43:00,Ewallet,8.6,0.36,224.52
 913,WALM063,Georgetown,Home and lifestyle,93.12,8.0,2019-07-02,10:09:00,Cash,6.8,0.33,744.96
 914,WALM034,College Station,Fashion accessories,51.34,8.0,2019-01-31,10:00:00,Ewallet,7.6,0.48,410.72
-915,WALM005,Fort Worth,Food and beverages,99.6,3.0,2019-02-25,18:45:00,Cash,5.8,0.48,298.79999999999995
+915,WALM005,Fort Worth,Food and beverages,99.6,3.0,2019-02-25,18:45:00,Cash,5.8,0.48,298.8
 916,WALM028,Odessa,Electronic accessories,35.49,6.0,2019-02-02,12:40:00,Cash,4.1,0.48,212.94
 917,WALM001,Houston,Sports and travel,42.85,1.0,2019-03-14,15:36:00,Credit card,9.3,0.36,42.85
 918,WALM027,Abilene,Fashion accessories,94.67,4.0,2019-11-03,12:04:00,Cash,6.8,0.48,378.68
@@ -934,13 +934,13 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 933,WALM038,Sugar Land,Food and beverages,74.44,10.0,2019-02-27,11:40:00,Ewallet,5.1,0.48,744.4
 934,WALM013,Irving,Health and beauty,64.08,7.0,2019-01-20,12:27:00,Ewallet,7.6,0.48,448.56
 935,WALM006,El Paso,Home and lifestyle,63.15,6.0,2019-03-01,20:24:00,Ewallet,9.8,0.48,378.9
-936,WALM099,Weatherford,Home and lifestyle,85.72,3.0,2019-01-24,20:59:00,Ewallet,5.1,0.18,257.15999999999997
+936,WALM099,Weatherford,Home and lifestyle,85.72,3.0,2019-01-24,20:59:00,Ewallet,5.1,0.18,257.16
 937,WALM081,Friendswood,Health and beauty,78.89,7.0,2019-05-01,19:48:00,Ewallet,7.5,0.33,552.23
-938,WALM049,North Richland Hills,Sports and travel,89.48,5.0,2019-03-30,10:18:00,Cash,7.4,0.48,447.40000000000003
+938,WALM049,North Richland Hills,Sports and travel,89.48,5.0,2019-03-30,10:18:00,Cash,7.4,0.48,447.4
 939,WALM088,Cleburne,Health and beauty,92.09,3.0,2019-02-17,16:27:00,Cash,4.2,0.33,276.27
 940,WALM067,Haltom City,Food and beverages,57.29,6.0,2019-03-21,17:04:00,Ewallet,5.9,0.33,343.74
 941,WALM093,Angleton,Food and beverages,66.52,4.0,2019-02-03,18:14:00,Ewallet,6.9,0.33,266.08
-942,WALM095,Big Spring,Fashion accessories,99.82,9.0,2019-03-27,10:43:00,Cash,6.6,0.33,898.3799999999999
+942,WALM095,Big Spring,Fashion accessories,99.82,9.0,2019-03-27,10:43:00,Cash,6.6,0.33,898.38
 943,WALM082,Weslaco,Home and lifestyle,45.68,10.0,2019-01-19,19:30:00,Cash,5.7,0.33,456.8
 944,WALM025,Waco,Health and beauty,50.79,5.0,2019-02-19,14:53:00,Credit card,5.3,0.48,253.95
 945,WALM058,Port Arthur,Health and beauty,10.08,7.0,2019-03-28,20:14:00,Cash,4.2,0.33,70.56
@@ -949,8 +949,8 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 948,WALM009,Plano,Fashion accessories,53.78,1.0,2019-03-02,20:13:00,Ewallet,4.7,0.48,53.78
 949,WALM044,Pharr,Home and lifestyle,35.81,5.0,2019-06-02,18:44:00,Ewallet,7.9,0.48,179.05
 950,WALM020,Killeen,Food and beverages,26.43,8.0,2019-02-24,14:26:00,Ewallet,8.9,0.48,211.44
-951,WALM081,Friendswood,Health and beauty,39.91,3.0,2019-02-21,12:40:00,Ewallet,9.3,0.33,119.72999999999999
-952,WALM039,Longview,Home and lifestyle,21.9,3.0,2019-09-01,18:43:00,Ewallet,4.7,0.48,65.69999999999999
+951,WALM081,Friendswood,Health and beauty,39.91,3.0,2019-02-21,12:40:00,Ewallet,9.3,0.33,119.73
+952,WALM039,Longview,Home and lifestyle,21.9,3.0,2019-09-01,18:43:00,Ewallet,4.7,0.48,65.7
 953,WALM005,Fort Worth,Food and beverages,62.85,4.0,2019-02-25,13:22:00,Ewallet,8.7,0.48,251.4
 954,WALM066,Grapevine,Food and beverages,21.04,4.0,2019-01-13,13:58:00,Cash,7.6,0.33,84.16
 955,WALM071,Lufkin,Home and lifestyle,65.91,6.0,2019-09-02,11:45:00,Cash,5.7,0.33,395.46
@@ -958,7 +958,7 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 957,WALM042,Bryan,Food and beverages,50.49,9.0,2019-10-01,17:16:00,Cash,5.4,0.48,454.41
 958,WALM086,Rosenberg,Electronic accessories,46.02,6.0,2019-07-02,15:55:00,Cash,7.1,0.33,276.12
 959,WALM093,Angleton,Home and lifestyle,15.8,10.0,2019-09-01,12:07:00,Cash,7.8,0.33,158.0
-960,WALM025,Waco,Food and beverages,98.66,9.0,2019-02-19,15:07:00,Cash,8.4,0.48,887.9399999999999
+960,WALM025,Waco,Food and beverages,98.66,9.0,2019-02-19,15:07:00,Cash,8.4,0.48,887.94
 961,WALM013,Irving,Fashion accessories,91.98,1.0,2019-03-18,15:29:00,Cash,9.8,0.48,91.98
 962,WALM022,Mesquite,Electronic accessories,20.89,2.0,2019-05-02,18:45:00,Cash,9.8,0.48,41.78
 963,WALM062,Galveston,Fashion accessories,15.5,1.0,2019-03-19,15:23:00,Credit card,7.4,0.33,15.5
@@ -966,9 +966,9 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 965,WALM091,Little Elm,Food and beverages,33.33,2.0,2019-01-26,14:41:00,Credit card,6.4,0.33,66.66
 966,WALM031,Lewisville,Electronic accessories,38.27,2.0,2019-02-03,18:18:00,Credit card,5.8,0.48,76.54
 967,WALM055,Waxahachie,Home and lifestyle,33.3,9.0,2019-04-03,15:27:00,Ewallet,7.2,0.33,299.7
-968,WALM049,North Richland Hills,Home and lifestyle,81.01,3.0,2019-01-13,12:55:00,Credit card,9.3,0.48,243.03000000000003
-969,WALM012,Garland,Health and beauty,15.8,3.0,2019-03-25,18:02:00,Cash,9.5,0.48,47.400000000000006
-970,WALM026,Denton,Electronic accessories,34.49,5.0,2019-11-03,19:44:00,Credit card,9.0,0.48,172.45000000000002
+968,WALM049,North Richland Hills,Home and lifestyle,81.01,3.0,2019-01-13,12:55:00,Credit card,9.3,0.48,243.03
+969,WALM012,Garland,Health and beauty,15.8,3.0,2019-03-25,18:02:00,Cash,9.5,0.48,47.4
+970,WALM026,Denton,Electronic accessories,34.49,5.0,2019-11-03,19:44:00,Credit card,9.0,0.48,172.45
 971,WALM096,Eagle Pass,Food and beverages,84.63,10.0,2019-01-01,11:36:00,Credit card,9.0,0.18,846.3
 972,WALM029,Round Rock,Home and lifestyle,36.91,7.0,2019-10-02,13:51:00,Ewallet,6.7,0.48,258.37
 973,WALM004,Austin,Electronic accessories,87.08,7.0,2019-01-26,15:17:00,Cash,5.5,0.48,609.56
@@ -976,23 +976,23 @@ invoice_id,branch,city,category,unit_price,quantity,date,time,payment_method,rat
 975,WALM028,Odessa,Fashion accessories,86.13,2.0,2019-07-02,17:59:00,Cash,8.2,0.48,172.26
 976,WALM058,Port Arthur,Fashion accessories,49.92,2.0,2019-06-03,11:55:00,Credit card,7.0,0.33,99.84
 977,WALM081,Friendswood,Food and beverages,74.66,4.0,2019-04-03,10:39:00,Cash,8.5,0.33,298.64
-978,WALM091,Little Elm,Food and beverages,26.6,6.0,2019-02-26,15:10:00,Ewallet,4.9,0.33,159.60000000000002
+978,WALM091,Little Elm,Food and beverages,26.6,6.0,2019-02-26,15:10:00,Ewallet,4.9,0.33,159.6
 979,WALM093,Angleton,Electronic accessories,25.45,1.0,2019-10-03,18:10:00,Credit card,5.1,0.33,25.45
 980,WALM034,College Station,Food and beverages,67.77,1.0,2019-04-02,20:43:00,Credit card,6.5,0.48,67.77
 981,WALM072,Lancaster,Food and beverages,59.59,4.0,2019-01-19,12:46:00,Cash,9.8,0.33,238.36
 982,WALM023,Midland,Health and beauty,58.15,4.0,2019-01-23,17:44:00,Cash,8.4,0.48,232.6
 983,WALM020,Killeen,Sports and travel,97.48,9.0,2019-03-14,14:19:00,Ewallet,7.4,0.48,877.32
-984,WALM065,Texas City,Health and beauty,99.96,7.0,2019-01-23,10:33:00,Cash,6.1,0.33,699.7199999999999
+984,WALM065,Texas City,Health and beauty,99.96,7.0,2019-01-23,10:33:00,Cash,6.1,0.33,699.72
 985,WALM083,Farmers Branch,Electronic accessories,96.37,7.0,2019-09-01,11:40:00,Cash,6.0,0.33,674.59
 986,WALM025,Waco,Fashion accessories,63.71,5.0,2019-07-02,19:30:00,Ewallet,8.5,0.48,318.55
 987,WALM074,Weslaco,Health and beauty,14.76,2.0,2019-02-18,14:42:00,Cash,4.3,0.33,29.52
 988,WALM036,Allen,Health and beauty,62.0,8.0,2019-03-01,19:08:00,Credit card,6.2,0.48,496.0
-989,WALM015,Grand Prairie,Electronic accessories,82.34,10.0,2019-03-29,19:12:00,Ewallet,4.3,0.48,823.4000000000001
+989,WALM015,Grand Prairie,Electronic accessories,82.34,10.0,2019-03-29,19:12:00,Ewallet,4.3,0.48,823.4
 990,WALM095,Big Spring,Health and beauty,75.37,8.0,2019-01-28,15:46:00,Credit card,8.4,0.33,602.96
 991,WALM057,Euless,Food and beverages,56.56,5.0,2019-03-22,19:06:00,Credit card,4.5,0.33,282.8
 992,WALM001,Houston,Sports and travel,76.6,10.0,2019-01-24,18:10:00,Ewallet,6.0,0.36,766.0
 993,WALM087,Waxahachie,Electronic accessories,58.03,2.0,2019-10-03,20:46:00,Ewallet,8.8,0.33,116.06
-994,WALM042,Bryan,Fashion accessories,17.49,10.0,2019-02-22,18:35:00,Ewallet,6.6,0.48,174.89999999999998
+994,WALM042,Bryan,Fashion accessories,17.49,10.0,2019-02-22,18:35:00,Ewallet,6.6,0.48,174.9
 995,WALM047,Flower Mound,Electronic accessories,60.95,1.0,2019-02-18,11:40:00,Ewallet,5.9,0.48,60.95
 996,WALM012,Garland,Health and beauty,40.35,1.0,2019-01-29,13:46:00,Ewallet,6.2,0.48,40.35
 997,WALM005,Fort Worth,Home and lifestyle,97.38,10.0,2019-02-03,17:16:00,Ewallet,4.4,0.48,973.8
