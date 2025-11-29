@@ -1,9 +1,9 @@
 
-USE wallmart_db
+USE wallmart_db;
  
 SHOW TABLES;
 
-SELECT * FROM wallmart_sales;
+SELECT * FROM wallmart_sales
 
 
 
@@ -16,19 +16,22 @@ SELECT * FROM wallmart_sales;
 
 -- Payment Method types and number of transactions per Method type.
 
-SELECT payment_method Payment_Method, count(*) Total_Tarnsactions FROM
-wallmart_sales
-GROUP BY
-payment_method
+SELECT
+	payment_method Payment_Method,
+	count(*) Total_Tarnsactions
+FROM wallmart_sales
+GROUP BY payment_method;
 
 
 -- Total Wallmarts in the DatASet.
 
-SELECT count(distinct branch) AS Total_Wallmarts FROM wallmart_sales
+SELECT count(distinct branch) AS Total_Wallmarts FROM wallmart_sales;
 
 
 -- Maximum Quantity Sold
-SELECT max(quantity) AS Max_Sold FROM wallmart_sales
+SELECT
+	max(quantity) AS Max_Sold
+FROM wallmart_sales
 
 ************************************************************************************************************************
 
@@ -44,9 +47,12 @@ SELECT max(quantity) AS Max_Sold FROM wallmart_sales
 
 -- Payment methods, Number of Transactions, and Quantity sold by each Payment Method
 
-SELECT payment_method AS Payment_Method, count(*) AS Total_Transaction, sum(quantity) AS Quantity_Sold
+SELECT
+	payment_method AS Payment_Method,
+    count(*) AS Total_Transaction,
+    sum(quantity) AS Quantity_Sold
 FROM wallmart_sales
-GROUP BY payment_method
+GROUP BY payment_method;
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -54,16 +60,13 @@ GROUP BY payment_method
 -- Highest-rated category in each branch, Display the branch, category, and avg rating
 
 SELECT Branch, Category, Average_Rating, RANKing FROM 
-
 (
 	SELECT branch, category, round(avg(rating),2) AS Average_Rating,
 	RANK() over(partition by branch order by avg(rating) desc) AS RANKing
 	FROM wallmart_sales
 	GROUP BY branch, category
-    
 ) AS RANKing_Table
-
-WHERE RANKing = 1
+WHERE RANKing = 1;
 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -80,10 +83,9 @@ FROM
 			count(*) AS Total_Transactions,
 			RANK() over(partition by branch order by count(*) DESC) AS RANKings
 		FROM wallmart_sales
-		GROUP BY
-		branch, Days
+		GROUP BY branch, Days
 	) AS RANKing
-WHERE RANKings = 1
+WHERE RANKings = 1;
 
 #              --- Same query using CTE   ---
 
@@ -95,12 +97,11 @@ SELECT
     count(*) AS Total_Transactions,
     RANK() over(partition by branch order by count(*) DESC) AS RANKings
 FROM wallmart_sales
-GROUP BY
-branch, Days
+GROUP BY branch, Days
 )
 SELECT Branch, Days, Total_Transactions, RANKings
 FROM RANKing_Column
-WHERE RANKings = 1
+WHERE RANKings = 1;
 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -114,7 +115,7 @@ SELECT
     ROUND(avg(rating),2) Average_Rating, min(rating) Minimum_Rating, max(rating) AS Maximum_Rating
 FROM wallmart_sales
 GROUP BY city, category
-ORDER BY City, Maximum_Rating DESC
+ORDER BY City, Maximum_Rating DESC;
 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -126,10 +127,8 @@ SELECT
 	category AS Category,
 	round(sum((total_sales * profit_margin)),2) AS Total_Profit
 FROM wallmart_sales
-GROUP BY 
-category
-ORDER BY
-Total_Profit DESC
+GROUP BY category
+ORDER BY Total_Profit DESC;
 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -159,6 +158,72 @@ WHERE RANKings = 1;
 
 
 -- Categorise Sales into Morning, Afternoon, and Evening shifts.
+
+SELECT 
+	branch as Branch,
+	CASE
+		WHEN HOUR(time) > 6 AND HOUR(time) < 12 THEN "Morning"
+        WHEN HOUR(time) >= 12 AND HOUR(time) < 17 THEN "Afternoon"
+        ELSE "Evening"
+	END AS "Time_of_Day",
+    count(*) as Total_Transactions,
+	round(sum(total_sales),1) as Total_Sales
+FROM wallmart_sales
+GROUP BY branch,Time_of_Day
+ORDER BY Branch, Time_of_Day DESC, Total_Sales DESC, Total_Transactions DESC;
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+-- 5 Branches with Highest Revenue Decrease Ratio from Last Year to Current Year (e.g., 2022 to 2023)
+
+WITH CY_rev AS
+(
+	SELECT
+		branch as Branch,
+		SUM(total_sales) as Revenue_2023
+	FROM wallmart_sales
+	WHERE YEAR(date) = 2023
+	GROUP BY branch
+),
+LY_rev AS
+(
+	SELECT
+		branch as Branch,
+		SUM(total_sales) as Revenue_2022
+	FROM wallmart_sales
+	WHERE YEAR(date) = 2022
+	GROUP BY branch
+)
+SELECT
+	LY_rev.branch as Branch,
+    LY_rev.Revenue_2022,
+    CY_rev.Revenue_2023,
+    round(((CY_rev.Revenue_2023 - LY_rev.Revenue_2022)/LY_rev.Revenue_2022) * 100,2) as Revenue_Ratio
+FROM LY_rev
+INNER JOIN CY_rev ON LY_rev.branch = CY_rev.branch
+WHERE LY_rev.Revenue_2022 > CY_rev.Revenue_2023
+Order by Revenue_Ratio 
+Limit 5;
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
