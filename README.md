@@ -69,7 +69,6 @@ The dataset consists of transactional sales data with the following key columns:
 
 **Tests Used:**
 - One-Way ANOVA
-- Tukey HSD post-hoc test
 
 **Conclusion:**  
 Cash payments have significantly higher average total sales compared to credit card and e-wallet payments, while no significant difference is observed between credit card and e-wallet transactions.
