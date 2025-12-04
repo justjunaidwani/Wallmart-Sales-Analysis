@@ -1,101 +1,64 @@
-# 📊 Walmart Sales Data Analysis
+# Walmart Sales Analysis
 
-## 🛒 Project Overview
-This project performs an end-to-end analysis of Walmart sales data to uncover insights related to sales performance, customer behavior, payment methods, and time-based trends. The analysis combines SQL, Python, data visualization, and statistical hypothesis testing to move from descriptive insights to statistically validated conclusions.
-
----
-
-## 🎯 Objectives
-- Analyze sales and revenue trends from 2019 to 2023
-- Compare performance across categories, branches, and cities
-- Understand customer behavior and payment method preferences
-- Apply hypothesis testing to validate business insights
-- Visualize results using clear and interpretable charts
+This project analyzes Walmart sales data to better understand sales trends, customer behavior, and payment method performance.  
+The goal is to move beyond basic summaries and use statistical testing to confirm whether observed differences are meaningful.
 
 ---
 
-## 🧾 Dataset Description
-The dataset consists of transactional sales data with the following key columns:
-
-- `invoice_id` – Unique transaction ID  
-- `date` – Transaction date  
-- `time` – Transaction time  
-- `branch` – Store branch  
-- `city` – Store city  
-- `category` – Product category  
-- `quantity` – Quantity sold  
-- `unit_price` – Price per unit  
-- `total_sales` – Total transaction value  
-- `profit_margin` – Profit margin per transaction  
-- `payment_method` – Cash, Credit Card, Ewallet  
-- `rating` – Customer rating  
-
-**Time Period:** 2019 – 2023
+## What this project covers
+- Sales analysis across categories, branches, and cities
+- Yearly sales trends from 2019 to 2023
+- Comparison of payment methods (Cash, Credit Card, E-wallet)
+- Data visualization using Python
+- Hypothesis testing to validate insights
 
 ---
 
-## 🛠️ Tools & Technologies
+## Dataset
+The dataset contains transaction-level sales records, including:
+- Date and time of purchase  
+- Product category and quantity  
+- Total sales value  
+- Payment method  
+- Customer rating  
+
+Time range: **2019–2023**
+
+> Note: Category data after 2019 appears partially incomplete and is addressed during analysis.
+
+---
+
+## Tools Used
 - Python (Pandas, NumPy)
-- SQL (CTEs, Window Functions, Aggregations)
+- SQL
 - Matplotlib & Seaborn
-- SciPy & Statsmodels (Hypothesis Testing)
+- SciPy / Statsmodels (for hypothesis testing)
 
 ---
 
-## 🔍 Analysis Performed
-
-### ✔ Exploratory Data Analysis
-- Sales and transaction distributions
-- Category, branch, and city-level performance
-- Payment method usage patterns
-- Customer rating analysis
-
-### ✔ Time Series Analysis
-- Year-wise total sales trends
-- Category-wise performance over time
-- Transaction volume trends
-
-### ✔ SQL Analysis
-- Revenue by branch and category
-- Year-over-year sales growth
-- Transaction counts by payment method
-- Ranking of top-performing branches and categories
-
-### ✔ Hypothesis Testing
-**Example:** Impact of payment method on total sales
-
-- **H₀:** Average total sales are equal across payment methods  
-- **H₁:** At least one payment method has a different average total sales  
-
-**Tests Used:**
-- One-Way ANOVA
-
-**Conclusion:**  
-Cash payments have significantly higher average total sales compared to credit card and e-wallet payments, while no significant difference is observed between credit card and e-wallet transactions.
+## Key Analysis
+- Explored sales distribution and trends over time
+- Compared performance across product categories, branches, and cities
+- Analyzed customer payment behavior across frequency and transaction value
+- Applied **one-way ANOVA** to test whether average sales differ by payment method
+- Used **Tukey HSD** to identify which payment methods differ
 
 ---
 
-## 📊 Visualizations
-- Bar and stacked bar charts
-- Line charts for yearly trends
-- Pie charts for category-wise analysis
-- Annotated plots for clear interpretation
+## Main Insights
+- **Overall sales decline sharply after 2019**, with no strong recovery in later years
+- Post-2019 sales are increasingly concentrated in **Home and Lifestyle** and **Fashion Accessories**
+- Several categories show **no recorded sales after 2019**, likely due to incomplete data coverage
+- These category-level changes help explain the observed downward sales trend
+- Cash transactions have the **lowest usage frequency** but the **highest average sales per transaction**
+- Credit card and e-wallet transactions exhibit similar average purchasing behavior
+- Differences in average transaction value by payment method are **statistically significant** (ANOVA)
 
 ---
 
-## 📌 Key Insights
-- Cash transactions generate significantly higher average sales
-- Sales trends vary across product categories over time
-- Some branches consistently outperform others
-- Credit card and e-wallet payment behaviors are statistically similar
-- Customer ratings remain consistently high across categories
-
----
-
-## 📂 Project Structure
+## Project Structure
 Walmart-Sales-Analysis/
-│
-├── README.md
 ├── walmart_sales_analysis.ipynb
 ├── walmart_sales_sql_queries.sql
-├── requirements.txt/
+├── requirements.txt
+└── visualizations/
