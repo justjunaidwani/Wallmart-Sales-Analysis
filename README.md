@@ -60,5 +60,5 @@ Time range: **2019–2023**
 Walmart-Sales-Analysis/
 ├── walmart_sales_analysis.ipynb
 ├── walmart_sales_sql_queries.sql
+├── README.md
 ├── requirements.txt
-└── visualizations/
