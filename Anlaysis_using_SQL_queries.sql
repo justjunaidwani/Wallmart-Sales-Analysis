@@ -1,15 +1,22 @@
 
-USE wallmart_db;
+Show Databases;
+
+CREATE DATABASE walmart_db;
+
+USE walmart_db;
  
 SHOW TABLES;
 
-SELECT * FROM wallmart_sales
+--  We already imported the cleaned data of Walmart dataset from Python to MySQL as "walmart_sales" table.
+
+
+SELECT * FROM walmart_sales
 
 
 
 
 
-#                   ------------ BASic Analysis    -------------
+#                   ------------ Basic Analysis    -------------
 
 
 ************************************************************************************************************************
@@ -19,19 +26,19 @@ SELECT * FROM wallmart_sales
 SELECT
 	payment_method Payment_Method,
 	count(*) Total_Tarnsactions
-FROM wallmart_sales
+FROM walmart_sales
 GROUP BY payment_method;
 
 
--- Total Wallmarts in the DatASet.
+-- Total walmarts in the DatASet.
 
-SELECT count(distinct branch) AS Total_Wallmarts FROM wallmart_sales;
+SELECT count(distinct branch) AS Total_walmarts FROM walmart_sales;
 
 
 -- Maximum Quantity Sold
 SELECT
 	max(quantity) AS Max_Sold
-FROM wallmart_sales
+FROM walmart_sales
 
 ************************************************************************************************************************
 
@@ -51,7 +58,7 @@ SELECT
 	payment_method AS Payment_Method,
     count(*) AS Total_Transaction,
     sum(quantity) AS Quantity_Sold
-FROM wallmart_sales
+FROM walmart_sales
 GROUP BY payment_method;
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -63,7 +70,7 @@ SELECT Branch, Category, Average_Rating, RANKing FROM
 (
 	SELECT branch, category, round(avg(rating),2) AS Average_Rating,
 	RANK() over(partition by branch order by avg(rating) desc) AS RANKing
-	FROM wallmart_sales
+	FROM walmart_sales
 	GROUP BY branch, category
 ) AS RANKing_Table
 WHERE RANKing = 1;
@@ -82,7 +89,7 @@ FROM
 			day(date) AS Days,
 			count(*) AS Total_Transactions,
 			RANK() over(partition by branch order by count(*) DESC) AS RANKings
-		FROM wallmart_sales
+		FROM walmart_sales
 		GROUP BY branch, Days
 	) AS RANKing
 WHERE RANKings = 1;
@@ -96,7 +103,7 @@ SELECT
     day(date) AS Days,
     count(*) AS Total_Transactions,
     RANK() over(partition by branch order by count(*) DESC) AS RANKings
-FROM wallmart_sales
+FROM walmart_sales
 GROUP BY branch, Days
 )
 SELECT Branch, Days, Total_Transactions, RANKings
@@ -113,7 +120,7 @@ SELECT
 	city AS City,
     category AS Category,
     ROUND(avg(rating),2) Average_Rating, min(rating) Minimum_Rating, max(rating) AS Maximum_Rating
-FROM wallmart_sales
+FROM walmart_sales
 GROUP BY city, category
 ORDER BY City, Maximum_Rating DESC;
 
@@ -126,7 +133,7 @@ ORDER BY City, Maximum_Rating DESC;
 SELECT
 	category AS Category,
 	round(sum((total_sales * profit_margin)),2) AS Total_Profit
-FROM wallmart_sales
+FROM walmart_sales
 GROUP BY category
 ORDER BY Total_Profit DESC;
 
@@ -143,7 +150,7 @@ With RANKing_table AS
     payment_method AS Payment_Method,
     count(*) AS Total_Transactions,
 	RANK() over(partition by branch order by count(*) desc) AS RANKings
-	FROM wallmart_sales
+	FROM walmart_sales
 	GROUP BY branch, payment_method
 )
 SELECT 
@@ -168,7 +175,7 @@ SELECT
 	END AS "Time_of_Day",
     count(*) as Total_Transactions,
 	round(sum(total_sales),1) as Total_Sales
-FROM wallmart_sales
+FROM walmart_sales
 GROUP BY branch,Time_of_Day
 ORDER BY Branch, Time_of_Day DESC, Total_Sales DESC, Total_Transactions DESC;
 
@@ -183,7 +190,7 @@ WITH CY_rev AS
 	SELECT
 		branch as Branch,
 		SUM(total_sales) as Revenue_2023
-	FROM wallmart_sales
+	FROM walmart_sales
 	WHERE YEAR(date) = 2023
 	GROUP BY branch
 ),
@@ -192,7 +199,7 @@ LY_rev AS
 	SELECT
 		branch as Branch,
 		SUM(total_sales) as Revenue_2022
-	FROM wallmart_sales
+	FROM walmart_sales
 	WHERE YEAR(date) = 2022
 	GROUP BY branch
 )
